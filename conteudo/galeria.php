@@ -1,53 +1,79 @@
  <section class="galeria">
-        <header class="parallax-padrao">
-          <h2>
-            Galeria
-          </h2>
-          <h3>
-            Um retrato da nossa essência
-          </h3>
-        </header>
-        <div class="site-card cardgaleria slideGaleria wow animate__animated animate__fadeInUp">
-          <article>
-            <img src="assets/galeria_1.png" alt="foto">
-          </article>
+     <header class="parallax-padrao">
+         <h2>
+             Galeria
+         </h2>
+         <h3>
+             Veja os resultados de nossos clientes!
+         </h3>
+     </header>
+     <div class="site-card cardGaleria slideGaleria wow animate__animated animate__fadeInUp">
 
-           <article>
-            <img src="assets/galeria_2.png" alt="foto">
-          </article>
-
-           <article>
-            <img src="assets/galeria_3.png" alt="foto">
-          </article>
-
-           <article>
-            <img src="assets/galeria_4.png" alt="foto">
-          </article>
-
-           <article>
-            <img src="assets/galeria_5.png" alt="foto">
-          </article>
-
-           <article>
-            <img src="assets/galeria_6.png" alt="foto">
-          </article>
-          
-           <article>
-            <img src="assets/galeria_1.png" alt="foto">
-          </article>
-
-           <article>
-            <img src="assets/galeria_2.png" alt="foto">
-          </article>
-
-           <article>
-            <img src="assets/galeria_3.png" alt="foto">
-          </article>
-
-        
-
-  
-        </div>
+         <article>
+             <img src="assets/foto_galeria1.png" alt="Imagem de um cliente após cortar o cabelo">
 
 
-      </section>
+         </article>
+
+         <article>
+             <img src="assets/foto_galeria2.png" alt="Imagem de um cliente após cortar o cabelo">
+
+
+         </article>
+
+         <article>
+             <img src="assets/foto_galeria3.png" alt="Imagem de um cliente após cortar o cabelo">
+
+
+         </article>
+
+         <article>
+             <img src="assets/foto_galeria4.png" alt="Imagem de um cliente após cortar o cabelo">
+
+
+         </article>
+
+         <article>
+             <img src="assets/foto_galeria5.png" alt="Imagem de um cliente após cortar o cabelo">
+
+
+         </article>
+
+         <article>
+             <img src="assets/foto_galeria6.png" alt="Imagem de um cliente após cortar o cabelo">
+
+         </article>
+
+         <article>
+          <img src="assets/foto_galeria7.png" alt="Imagem de um cliente após cortar o cabelo">
+
+
+        </article>
+
+        <article>
+          <img src="assets/foto_galeria8.png" alt="Imagem de um cliente após cortar o cabelo">
+
+
+        </article>
+
+        <article>
+          <img src="assets/foto_galeria9.png" alt="Imagem de um cliente após cortar o cabelo">
+
+
+        </article>
+
+        <article>
+          <img src="assets/foto_galeria10.png" alt="Imagem de um cliente após cortar o cabelo">
+
+
+        </article>
+
+        <article>
+          <img src="assets/foto_galeria11.png" alt="Imagem de um cliente após cortar o cabelo">
+
+
+        </article>
+
+     </div>
+
+ </section>

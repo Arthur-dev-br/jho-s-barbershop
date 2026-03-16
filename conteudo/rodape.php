@@ -1,98 +1,53 @@
-<footer class="rodape ">
-      <!-- Conteúdo principal do rodapé -->
-      <section class="site rodape-grid">
+<footer class="rodape">
 
-        <div class="coluna-end wow animate__animated animate__fadeInUp">
-          <h3>
-            Nosso Endereço
-          </h3>
-          <address>
-            Av Marechal Tito, 1500 <br>
-            São Miguel Paulista
-          </address>
-          <a href="#">Mapa</a>
+        <section class="site rodape-grid">
+
+            <div class="coluna-logo">
+
+        <h1>Jho's Barbershop</h1>
 
         </div>
 
-        <div class="coluna-reserva">
-          
-          <div class="box-reserva">
+        <div class="coluna-contato">
+            <div class="box-contato">
 
-            <h3>Faça sua reserva</h3>
-            <div class="linha-box">
-              <hr>
-              <img src="assets/coffee.svg" alt="grão café">
-              <hr>
+                <h3>Contate-nos</h3>
+
             </div>
-            <ul>
-              <li><span>Segunda - Sexta</span> 
-                <span>09:00 - 00:00</span></li>
+            <div class="linha-box">
+                <hr>
+                <div>
+                    <ul>
+                        <li><span>Email: jhosbarbershop@gmail.com</span></li>
+    
+                        <li><span>Telefone: 11-95887-1348</span></li>
+                    </ul>
+                </div>
+                <hr>
 
-              <li><span>Sábado</span> 
-                <span>08:00 - 00:00</span></li>
+            </div>
 
-              <li><span>Domingo</span>
-                 <span>16:00 - 00:00</span></li>
-
-              <li><span>Feriado</span>
-                 <span>16:00 - 02:00</span></li>
-
-            </ul>
-            <a href="#" class="btn">Reserva</a>
-          </div>
-
-          <div class="box-email wow animate__animated animate__fadeInUp">
-            <p>Informe seu email para receber as novidades e promoções da Casa do Barista</p>
-            <form action="#" method="post">
-              <label for="email">Inscreva-se</label>
-              <input type="email" name="email" id="email" placeholder="informe seu email">
-              <button type="submit" aria-label="Enviar">
-                <img src="assets/arrow.svg" alt="Botão Enviar">
-              </button>
-            </form>
-          </div>
+            
+        </div>
+        
+        <div class="box-rede">
+             <ul class="rede-social">
+        <li><a href="#" target="_blank"><img src="assets/instagram-24.png" alt="Logo do instagram 60x60"></a></li>
+     </ul>
 
         </div>
-        <div class="coluna-contato wow animate__animated animate__fadeInUp">
-          <h3>
-            Contate-nos
-          </h3>
-          <a class="link-contato" href="mailto:contato@email.com.br">contato@email.com.br</a>
-          <a class="link-contato" href="tel:+5511999999888">(11)999-999-888</a>
-
-          <ul class="rede-social">
-
-      <li><a href="#" target="_blank"><img src="assets/facebook-24.png" alt="Logo facebook"></a></li>
-
-      <li><a href="#" target="_blank"><img src="assets/instagram-24.png" alt="Logo instagram"></a></li>
-
-      <li><a href="#" target="_blank"><img src="assets/linkedin-24.png" alt="Logo linkedin"></a></li>
-      
-      <li><a href="https://wa.me/5511999999999" target="_blank"><img src="assets/whatsapp-24.png" alt="Logo whatsapp"></a></li>
-
-    </ul>
-
-          
-
-
-        </div>
-
-
       </section>
 
-      <!-- Barra final -->
 
-      <div class="barra-final">
-
-        <p>
-          <?php  $data = date('Y');
+      
+      <!-- <div class="creditos">
+          <h2>
+              <?php  $data = date('Y');
           echo $data ?>
-          -Criado e desenvolvido por TIPI 06 - Senac Smp
-
-        </p>
-      </div>
-
-
-
-
-     </footer>
+          -Criado e desenvolvido por Arthur Costa - Senac Smp
+        </h2>
+        
+      </div> -->
+    
+    
+</footer>
