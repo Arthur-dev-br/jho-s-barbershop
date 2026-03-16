@@ -65,50 +65,160 @@
 
   <!-- Corpo -->
   <main>
-
-
-    <!-- inicio historia jho -->
-
-    <section class="historia-jho alinhamento">
+    <section class="galeria">
       <header class="parallax-padrao">
         <h2>
-          Conheça Jho
+          Galeria
         </h2>
         <h3>
-          suas formações e habilidades
+          Veja os resultados de nossos clientes!
         </h3>
-
       </header>
+      <div class="cards-galeria wow animate__animated animate__fadeInUp animated_delay 1s">
 
-      <div>
-        <img class="wow animate__animated animate__fadeInUp" src="assets/Jho_Foto_editada.jpg" alt="foto do barbeiro jhonathan">
+        <article>
+          <img src="assets/foto_galeria1.png" alt="Imagem de um cliente após cortar o cabelo">
+
+
+        </article>
+
+        <article>
+          <img src="assets/foto_galeria2.png" alt="Imagem de um cliente após cortar o cabelo">
+
+
+        </article>
+
+        <article>
+          <img src="assets/foto_galeria3.png" alt="Imagem de um cliente após cortar o cabelo">
+
+
+        </article>
+
+        <article>
+          <img src="assets/foto_galeria4.png" alt="Imagem de um cliente após cortar o cabelo">
+
+
+        </article>
+
+        <article>
+          <img src="assets/foto_galeria5.png" alt="Imagem de um cliente após cortar o cabelo">
+
+
+        </article>
+
+        <article>
+          <img src="assets/foto_galeria6.png" alt="Imagem de um cliente após cortar o cabelo">
+
+
+        </article>
+
+        <article>
+          <img src="assets/foto_galeria7.png" alt="Imagem de um cliente após cortar o cabelo">
+
+
+        </article>
+
+        <article>
+          <img src="assets/foto_galeria8.png" alt="Imagem de um cliente após cortar o cabelo">
+
+
+        </article>
+
+        <article>
+          <img src="assets/foto_galeria9.png" alt="Imagem de um cliente após cortar o cabelo">
+
+
+        </article>
+
+        <article>
+          <img src="assets/foto_galeria10.png" alt="Imagem de um cliente após cortar o cabelo">
+
+
+        </article>
+
+        <article>
+          <img src="assets/foto_galeria11.png" alt="Imagem de um cliente após cortar o cabelo">
+
+
+        </article>
+
+        <article>
+          <img src="assets/foto_galeria12.png" alt="Imagem de um cliente após cortar o cabelo">
+
+
+        </article>
+
+        <article>
+          <img src="assets/foto_galeria13.png" alt="Imagem de um cliente após cortar o cabelo">
+
+
+        </article>
+
+        <article>
+          <img src="assets/foto_galeria14.png" alt="Imagem de um cliente após cortar o cabelo">
+
+
+        </article>
+
+        <article>
+          <img src="assets/foto_galeria15.png" alt="Imagem de um cliente após cortar o cabelo">
+
+
+        </article>
+
+        <article>
+          <img src="assets/foto_galeria16.png" alt="Imagem de um cliente após cortar o cabelo">
+
+
+        </article>
+
+        <article>
+          <img src="assets/foto_galeria17.png" alt="Imagem de um cliente após cortar o cabelo">
+
+
+        </article>
+
+        <article>
+          <img src="assets/foto_galeria18.png" alt="Imagem de um cliente após cortar o cabelo">
+
+
+        </article>
+
+        <article>
+          <img src="assets/foto_galeria19.png" alt="Imagem de um cliente após cortar o cabelo">
+
+
+        </article>
+
+        <article>
+          <img src="assets/foto_galeria20.png" alt="Imagem de um cliente após cortar o cabelo">
+
+
+        </article>
+
+        <article>
+          <img src="assets/foto_galeria21.png" alt="Imagem de um cliente após cortar o cabelo">
+
+
+        </article>
+
+
+
+
+
+
+
+
+
+
+
       </div>
-
-      <div>
-        <p>
-         Desde 2016 atuando profissionalmente como barbeiro, Jhonathan desenvolve seu trabalho com foco na excelência do atendimento e na entrega do melhor resultado para cada cliente. 
-        </p>
-        <p>
-          Ao longo
-        </p>
-      </div>
-
-
 
     </section>
-
-    <!-- fim historia jho -->
-
-    <!-- inicio depoimentos -->
-
-    <?php require_once('conteudo/depoimentos.php'); ?>
-
-    <!-- fim depoimentos -->
 
 
 
   </main>
-
 
 
 
