@@ -61,7 +61,34 @@
 <body>
   <!-- cabeçalho -->
 
-  <?php require_once('conteudo/topo.php') ?>
+  <header class="topo topo2">
+
+    <div class="site">
+
+      <h1>Jho's Barbershop</h1>
+      <button class="abrir-menu"></button>
+      <nav class="menu">
+        <button class="fechar-menu"></button>
+
+        <!-- nav>ul>li*6>a+tab -->
+        <ul>
+          <li><a class="menu-ativo" href="index.php">Home</a></li>
+          <li><a href="sobre.php">Sobre</a></li>
+          <li><a href="servicos.php">Serviços</a></li>
+          <li><a href="galeria.php">Galeria</a></li>
+          <li><a href="contato.php">Contato</a></li>
+        </ul>
+      </nav>
+      <!-- ul>li>a>img+tab -->
+      <ul class="rede-social">
+        <li><a href="#" target="_blank"><img src="assets/instagram-24.png" alt="Logo do instagram 60x60"></a></li>
+        <li><a href="#" target="_blank"><img src="assets/whatsapp-24.png" alt="Logo do whatsapp 60x60"></a></li>
+        <li><a href="#" target="_blank"><img src="assets/facebook-24.png" alt="Logo do facebook 60x60"></a></li>
+      </ul>
+
+    </div>
+
+  </header>
 
   <!-- Corpo -->
   <main>
@@ -71,7 +98,7 @@
     <!-- inicio serviços -->
 
     <section class="servicos">
-      <header>
+      <header class="parallax-padrao">
         <h2>
           Nossos Serviços
         </h2>
@@ -80,52 +107,7 @@
         </h3>
 
       </header>
-      <div class="card-servicos wow animate__animated animate__fadeInUp">
-
-        <article>
-          <img src="assets/Corte_cabelo.png" alt="imagem de um homem de cabelo longo cortando o cabelo">
-          <p>
-            Cabelo
-          </p>
-        </article>
-
-        <article>
-          <img src="assets/Corte_Barba.png" alt="imagem de um homem de cabelo longo cortando o cabelo">
-          <p>
-            Barba
-          </p>
-        </article>
-
-        <article>
-          <img src="assets/Corte_sobrancelha.png" alt="imagem de um homem de cabelo longo cortando o cabelo">
-          <p>
-            Sobrancelha
-          </p>
-        </article>
-
-        <article>
-          <img src="assets/Hidratacao_cabelo.png" alt="imagem de um homem de cabelo longo cortando o cabelo">
-          <p>
-            Hidratação
-          </p>
-        </article>
-
-        <article>
-          <img src="assets/Cabelo penteado.png" alt="imagem de um homem de cabelo longo cortando o cabelo">
-          <p>
-            Penteados
-          </p>
-        </article>
-
-        <article>
-          <img src="assets/Cabeo_cuidado.png" alt="imagem de um homem de cabelo longo cortando o cabelo">
-          <p>
-            Progressiva
-          </p>
-        </article>
-
-      </div>
-
+     
 
 
     </section>

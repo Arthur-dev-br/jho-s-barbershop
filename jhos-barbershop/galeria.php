@@ -77,166 +77,140 @@
       <div class="cards-galeria wow animate__animated animate__fadeInUp animated_delay 1s">
 
         <article>
-          <img src="assets/galeria_foto1.png" alt="Imagem de um cliente após cortar o cabelo">
+          <img src="assets/foto_galeria1.png" alt="Imagem de um cliente após cortar o cabelo">
 
 
         </article>
 
         <article>
-          <img src="assets/galeria_foto2.png" alt="Imagem de um cliente após cortar o cabelo">
+          <img src="assets/foto_galeria2.png" alt="Imagem de um cliente após cortar o cabelo">
 
 
         </article>
 
         <article>
-          <img src="assets/galeria_foto3.png" alt="Imagem de um cliente após cortar o cabelo">
+          <img src="assets/foto_galeria3.png" alt="Imagem de um cliente após cortar o cabelo">
 
 
         </article>
 
         <article>
-          <img src="assets/galeria_foto1.png" alt="Imagem de um cliente após cortar o cabelo">
+          <img src="assets/foto_galeria4.png" alt="Imagem de um cliente após cortar o cabelo">
 
 
         </article>
 
         <article>
-          <img src="assets/galeria_foto2.png" alt="Imagem de um cliente após cortar o cabelo">
+          <img src="assets/foto_galeria5.png" alt="Imagem de um cliente após cortar o cabelo">
 
 
         </article>
 
         <article>
-          <img src="assets/galeria_foto3.png" alt="Imagem de um cliente após cortar o cabelo">
+          <img src="assets/foto_galeria6.png" alt="Imagem de um cliente após cortar o cabelo">
 
 
         </article>
 
         <article>
-          <img src="assets/galeria_foto1.png" alt="Imagem de um cliente após cortar o cabelo">
+          <img src="assets/foto_galeria7.png" alt="Imagem de um cliente após cortar o cabelo">
 
 
         </article>
 
         <article>
-          <img src="assets/galeria_foto1.png" alt="Imagem de um cliente após cortar o cabelo">
+          <img src="assets/foto_galeria8.png" alt="Imagem de um cliente após cortar o cabelo">
 
 
         </article>
 
         <article>
-          <img src="assets/galeria_foto1.png" alt="Imagem de um cliente após cortar o cabelo">
+          <img src="assets/foto_galeria9.png" alt="Imagem de um cliente após cortar o cabelo">
 
 
         </article>
 
         <article>
-          <img src="assets/galeria_foto1.png" alt="Imagem de um cliente após cortar o cabelo">
+          <img src="assets/foto_galeria10.png" alt="Imagem de um cliente após cortar o cabelo">
 
 
         </article>
 
         <article>
-          <img src="assets/galeria_foto1.png" alt="Imagem de um cliente após cortar o cabelo">
+          <img src="assets/foto_galeria11.png" alt="Imagem de um cliente após cortar o cabelo">
 
 
         </article>
 
         <article>
-          <img src="assets/galeria_foto1.png" alt="Imagem de um cliente após cortar o cabelo">
+          <img src="assets/foto_galeria12.png" alt="Imagem de um cliente após cortar o cabelo">
 
 
         </article>
 
         <article>
-          <img src="assets/galeria_foto1.png" alt="Imagem de um cliente após cortar o cabelo">
+          <img src="assets/foto_galeria13.png" alt="Imagem de um cliente após cortar o cabelo">
 
 
         </article>
 
         <article>
-          <img src="assets/galeria_foto1.png" alt="Imagem de um cliente após cortar o cabelo">
+          <img src="assets/foto_galeria14.png" alt="Imagem de um cliente após cortar o cabelo">
 
 
         </article>
 
         <article>
-          <img src="assets/galeria_foto1.png" alt="Imagem de um cliente após cortar o cabelo">
+          <img src="assets/foto_galeria15.png" alt="Imagem de um cliente após cortar o cabelo">
 
 
         </article>
 
-         <article>
-          <img src="assets/galeria_foto1.png" alt="Imagem de um cliente após cortar o cabelo">
+        <article>
+          <img src="assets/foto_galeria16.png" alt="Imagem de um cliente após cortar o cabelo">
 
 
         </article>
 
-         <article>
-          <img src="assets/galeria_foto1.png" alt="Imagem de um cliente após cortar o cabelo">
+        <article>
+          <img src="assets/foto_galeria17.png" alt="Imagem de um cliente após cortar o cabelo">
 
 
         </article>
 
-         <article>
-          <img src="assets/galeria_foto1.png" alt="Imagem de um cliente após cortar o cabelo">
+        <article>
+          <img src="assets/foto_galeria18.png" alt="Imagem de um cliente após cortar o cabelo">
 
 
         </article>
 
-         <article>
-          <img src="assets/galeria_foto1.png" alt="Imagem de um cliente após cortar o cabelo">
+        <article>
+          <img src="assets/foto_galeria19.png" alt="Imagem de um cliente após cortar o cabelo">
 
 
         </article>
 
-         <article>
-          <img src="assets/galeria_foto1.png" alt="Imagem de um cliente após cortar o cabelo">
+        <article>
+          <img src="assets/foto_galeria20.png" alt="Imagem de um cliente após cortar o cabelo">
 
 
         </article>
 
-         <article>
-          <img src="assets/galeria_foto1.png" alt="Imagem de um cliente após cortar o cabelo">
+        <article>
+          <img src="assets/foto_galeria21.png" alt="Imagem de um cliente após cortar o cabelo">
 
 
         </article>
 
-         <article>
-          <img src="assets/galeria_foto1.png" alt="Imagem de um cliente após cortar o cabelo">
 
 
-        </article>
-
-         <article>
-          <img src="assets/galeria_foto1.png" alt="Imagem de um cliente após cortar o cabelo">
 
 
-        </article>
-
-         <article>
-          <img src="assets/galeria_foto1.png" alt="Imagem de um cliente após cortar o cabelo">
 
 
-        </article>
-
-         <article>
-          <img src="assets/galeria_foto1.png" alt="Imagem de um cliente após cortar o cabelo">
 
 
-        </article>
 
-         <article>
-          <img src="assets/galeria_foto1.png" alt="Imagem de um cliente após cortar o cabelo">
-
-
-        </article>
-
-         <article>
-          <img src="assets/galeria_foto1.png" alt="Imagem de um cliente após cortar o cabelo">
-
-
-        </article>
 
       </div>
 

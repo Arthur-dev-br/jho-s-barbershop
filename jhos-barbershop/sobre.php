@@ -69,7 +69,33 @@
 
     <!-- inicio historia jho -->
 
-    <?php require_once('conteudo/historia-jho.php'); ?>
+    <section class="historia-jho alinhamento">
+      <header class="parallax-padrao">
+        <h2>
+          Conheça Jho
+        </h2>
+        <h3>
+          suas formações e habilidades
+        </h3>
+
+      </header>
+
+      <div>
+        <img class="wow animate__animated animate__fadeInUp" src="assets/Jho_Foto_editada.jpg" alt="foto do barbeiro jhonathan">
+      </div>
+
+      <div>
+        <p>
+         Desde 2016 atuando profissionalmente como barbeiro, Jhonathan desenvolve seu trabalho com foco na excelência do atendimento e na entrega do melhor resultado para cada cliente. 
+        </p>
+        <p>
+          Ao longo
+        </p>
+      </div>
+
+
+
+    </section>
 
     <!-- fim historia jho -->
 
