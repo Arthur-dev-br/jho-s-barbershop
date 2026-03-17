@@ -1,9 +1,27 @@
+$('.banner').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 1000,
+});
+
+
 $('.cardDepo').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 1000,
 });
+
+$('.slideGaleria').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  variableWidth: true,
+  autoplay: true,
+  autoplaySpeed: 1000,
+});
+
+
 
 new WOW().init();
 
