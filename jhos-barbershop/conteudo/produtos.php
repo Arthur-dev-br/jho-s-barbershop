@@ -9,50 +9,37 @@
 
             </header>
 
-            <div class="card-produtos">
+            <div class="site card-produtos">
 
-                <article class="wow animate__animated animate__fadeInUp animate__delay-1s">
-                    <img src="assets/produtos_1.png" alt="imagem de um kit de produtos para cabelo">
-                    <h4>
-                        pomadas “fox for men”
-                    </h4>
-                    <h5>
-                        R$ 35,00
-                    </h5>
-                    <p>
-                        Pomadas para cabelo
-                    </p>
+                <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+                    <article class="card-flip-miolo">
+                        
+                        <div class="flip1">
+                            <img src="assets/produtos_1.png" alt="imagem de um kit de produtos para cabelo">
+                            <h4>
+                                pomadas “fox for men”
+                            </h4>
+                        </div>
+    
+                        <div class="flip2">
+                            <h5>
+                                R$ 35,00
+                            </h5>
+                            <p>
+                                Pomadas para cabelo
+                            </p>
+                            
+                        </div>
+                    </article>
 
-                </article>
+                </div>
 
-                <article class="wow animate__animated animate__fadeInUp animate__delay-2s">
-                    <img src="assets/produtos_2.png" alt="imagem de um kit de produtos para cabelo">
-                    <h4>
-                        Pomadas “kongle black”
-                    </h4>
-                    <h5>
-                        R$ 45,00
-                    </h5>
-                    <p>
-                        Pomadas para cabelo
-                    </p>
-
-                </article>
                 
-                <article class="wow animate__animated animate__fadeInUp animate__delay-3s">
-                    <img src="assets/produtos_3.png" alt="imagem de um kit de produtos para cabelo">
-                    <h4>
-                        Loção inifinty
-                    </h4>
-                    <h5>
-                        R$ 45,00
-                    </h5>
-                    <p>
-                        Loção para crescimento capilar
-                    </p>
-
-                </article>
                 
 
             </div>
+
+             <div class="mais wow animate__animated animate__fadeInUp">
+               <a href="servicos.php"> Veja Mais</a>
+             </div>
         </section>
