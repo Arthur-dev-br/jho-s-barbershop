@@ -48,9 +48,7 @@
   <link rel="stylesheet" href="css/slick-theme.css">
 
   <!-- Animate CSS -->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <!-- Estilo -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
@@ -107,7 +105,7 @@
         </h3>
 
       </header>
-     
+
 
 
     </section>
@@ -118,7 +116,446 @@
 
 
     <!-- Inicio produtos -->
-    <?php require_once('conteudo/produtos.php'); ?>
+    <section class="produtos">
+      <header class="parallax-padrao">
+        <h2>
+          Produtos
+        </h2>
+        <h3>
+          kits personalizados para seu cuidado!
+        </h3>
+
+      </header>
+
+      <div class="site card-produtos">
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1">
+              <img src="assets/pomada_premium.png" alt="imagem de um kit de produtos para cabelo">
+              <h4>
+                pomada extra forte “fox for men”
+              </h4>
+            </div>
+
+            <div class="flip2">
+              
+
+              <h4>
+                pomada extra forte “fox for men”
+              </h4>
+              <h4>
+                R$ 35,00
+              </h4>
+              <p>
+                Pomadas para cabelo
+              </p>
+
+            </div>
+          </article>
+
+
+        </div>
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1">
+              <img src="assets/pomada_matte.png" alt="imagem de um kit de produtos para cabelo">
+              <h4>
+                pomada matte “fox for men”
+              </h4>
+            </div>
+
+            <div class="flip2">
+              <h4>
+                pomada matte “fox for men”
+              </h4>
+              <h4>
+                R$ 35,00
+              </h4>
+              <p>
+                cera modeladora efeito matte
+              </p>
+
+            </div>
+          </article>
+
+
+        </div>
+
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1">
+              <img src="assets/pomada_teia.png" alt="imagem de um kit de produtos para cabelo">
+              <h4>
+                pomada teia “fox for men” 80g
+              </h4>
+            </div>
+
+            <div class="flip2">
+              <h4>
+                pomada teia “fox for men” 80g
+              </h4>
+              <h4>
+                R$ 35,00
+              </h4>
+              <p>
+                creme modelador efeito teia
+              </p>
+
+            </div>
+          </article>
+
+
+        </div>
+
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1">
+              <img src="assets/modelador_em_po.png" alt="imagem de um kit de produtos para cabelo">
+              <h4>
+                modelador em pó “fox for men” 7g
+              </h4>
+            </div>
+
+            <div class="flip2">
+              <h4>
+                modelador em pó “fox for men” 7g
+              </h4>
+              <h5>
+                R$ 35,00
+              </h5>
+              <p>
+                modelador em pó para o couro cabeludo
+              </p>
+
+            </div>
+          </article>
+
+
+        </div>
+
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1">
+              <img src="assets/shaving_gel_barba.png" alt="imagem de um kit de produtos para cabelo">
+              <h4>
+                shaving gel “fox for men” 500g
+              </h4>
+            </div>
+
+            <div class="flip2">
+               <h4>
+                shaving gel “fox for men” 500g
+              </h4>
+              <h5>
+                R$ 35,00
+              </h5>
+              <p>
+                gel de barbear 500g
+              </p>
+
+            </div>
+          </article>
+
+
+        </div>
+
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1">
+              <img src="assets/limpador_facial.png" alt="imagem de um kit de produtos para cabelo">
+              <h4>
+                limpador facial “fox for men” 250g
+              </h4>
+            </div>
+
+            <div class="flip2">
+               <h4>
+                limpador facial “fox for men” 250g
+              </h4>
+              <h5>
+                R$ 35,00
+              </h5>
+              <p>
+                limpador facial pré barba
+              </p>
+
+            </div>
+          </article>
+
+
+        </div>
+
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1">
+              <img src="assets/balm_para_barba.png" alt="imagem de um kit de produtos para cabelo">
+              <h4>
+                Balm para barba “fox for men” 120ml
+              </h4>
+            </div>
+
+            <div class="flip2">
+              <h4>
+                Balm para barba “fox for men” 120ml
+              </h4>
+              <h5>
+                R$ 35,00
+              </h5>
+              <p>
+                hidratação para a barba
+              </p>
+
+            </div>
+          </article>
+
+
+        </div>
+
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1">
+              <img src="assets/oleo_para_barba.png" alt="imagem de um kit de produtos para cabelo">
+              <h4>
+                Óleo para barba “fox for men” 60ml
+              </h4>
+            </div>
+
+            <div class="flip2">
+              <h4>
+                Óleo para barba “fox for men” 60ml
+              </h4>
+              <h5>
+                R$ 35,00
+              </h5>
+              <p>
+                Óleo para barba 
+              </p>
+
+            </div>
+          </article>
+
+
+        </div>
+
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1">
+              <img src="assets/pos_barba.png" alt="imagem de um kit de produtos para cabelo">
+              <h4>
+                Hidratante facial Pós barba “fox for men” 120ml
+              </h4>
+            </div>
+
+            <div class="flip2">
+              <h4>
+                Hidratante facial Pós barba “fox for men” 120ml
+              </h4>
+              <h5>
+                R$ 35,00
+              </h5>
+              <p>
+                Hidratante facial pós barba
+              </p>
+
+            </div>
+          </article>
+
+
+        </div>
+
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1">
+              <img src="assets/locao_pos_barba.png" alt="imagem de um kit de produtos para cabelo">
+              <h4>
+                Loção pós barba “fox for men” 240ml
+              </h4>
+            </div>
+
+            <div class="flip2">
+              <h4>
+                Loção pós barba “fox for men” 240ml
+              </h4>
+              <h5>
+                R$ 35,00
+              </h5>
+              <p>
+                Loção pós barba 
+              </p>
+
+            </div>
+          </article>
+
+
+        </div>
+
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1">
+              <img src="assets/gel_cola.png" alt="imagem de um kit de produtos para cabelo">
+              <h4>
+                Gel Cola  “fox for men” 300g
+              </h4>
+            </div>
+
+            <div class="flip2">
+              <h4>
+                Gel Cola  “fox for men” 300g
+              </h4>
+              <h5>
+                R$ 35,00
+              </h5>
+              <p>
+                Pomadas para cabelo
+              </p>
+
+            </div>
+          </article>
+
+
+        </div>
+
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1">
+              <img src="assets/shampoo_anti_caspa.png" alt="imagem de um kit de produtos para cabelo">
+              <h4>
+                Shampo Anti Caspa “fox for men”
+              </h4>
+            </div>
+
+            <div class="flip2">
+              <h4>
+                Shampo Anti Caspa “fox for men”
+              </h4>
+              <h5>
+                R$ 35,00
+              </h5>
+              <p>
+                Pomadas para cabelo
+              </p>
+
+            </div>
+          </article>
+
+
+        </div>
+
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1">
+              <img src="assets/shampoo_4_em_1.png" alt="imagem de um kit de produtos para cabelo">
+              <h4>
+                Shampoo 4 em 1 “fox for men” 240 ML
+              </h4>
+            </div>
+
+            <div class="flip2">
+              <h4>
+                Shampoo 4 em 1 “fox for men” 240 ML
+              </h4>
+              <h5>
+                R$ 35,00
+              </h5>
+              <p>
+                Pomadas para cabelo
+              </p>
+
+            </div>
+          </article>
+
+
+        </div>
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1">
+              <img src="assets/esfoliante_facial_pre.png" alt="imagem de um kit de produtos para cabelo">
+              <h4>
+                Esfoliante Facial Pré Barba “fox for men” 120ML
+              </h4>
+            </div>
+
+            <div class="flip2">
+              <h4>
+                Esfoliante Facial Pré Barba “fox for men” 120ML
+              </h4>
+              <h5>
+                R$ 35,00
+              </h5>
+              <p>
+                Pomadas para cabelo
+              </p>
+
+            </div>
+          </article>
+
+
+        </div>
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1">
+              <img src="assets/mascara_black.png" alt="imagem de um kit de produtos para cabelo">
+              <h4>
+                Máscara Black “fox for men” 120ML 
+              </h4>
+            </div>
+
+            <div class="flip2">
+               <h4>
+                Máscara Black “fox for men” 120ML 
+              </h4>
+              <h5>
+                R$ 35,00
+              </h5>
+              <p>
+                Máscara Facial 
+              </p>
+
+            </div>
+          </article>
+
+
+        </div>
+
+       
+
+
+
+
+
+      </div>
+    </section>
+
 
     <!-- fim produtos -->
 
@@ -132,7 +569,8 @@
 
   <!-- Fim Rodapé -->
 
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
   <script src="js/slick.min.js"></script>
 
