@@ -1,77 +1,98 @@
+/* ---------------------------------------------- */
+/* ATÉ 1366PX */
+/* ---------------------------------------------- */
+
+@media (max-width:1366px) {
+
+    .produtos .card-produtos {
+        flex-wrap: nowrap;
+        gap: 0px;
+        margin-left: 10px;
+    }
+
+    .card-flip-miolo {
+        width: 95%;
+        height: 95%;
+
+    }
+}
+
+
 /*------------------------------------------------- */
 /* ATÉ 1200px (NOTEBOOK) */
 /* ------------------------------------------------ */
 
 @media (max-width:1200px) {
 
-    .menu ul li a{
-    font-size: 20px;
-    margin: 0 20px;
-    
-}
-.topo h1{
-    width: 200px;
-    height: 129px;
-    margin-left: 30px;
-    background-size: cover;
-   
-  
-}
+    .menu ul li a {
+        font-size: 20px;
+        margin: 0 20px;
 
-/* TESTE DE BARRA HORIZONTAL */
-    
-    .banner{
+    }
+
+    .topo h1 {
+        width: 200px;
+        height: 129px;
+        margin-left: 30px;
+        background-size: cover;
+
+
+    }
+
+    /* TESTE DE BARRA HORIZONTAL */
+
+    .banner {
         display: none;
     }
-    .depoimentos .cardDepo h5{
-    
-    font-size: 15px;
-   
-}
+
+    .depoimentos .cardDepo h5 {
+
+        font-size: 15px;
+
+    }
 
 
 
-    
-    
+
+
 
     /* --------------------------------- */
 
-    .historia-jho p{
+    .historia-jho p {
         font-size: 25px;
         margin-left: 15px;
     }
-    
-    .historia-jho img{
+
+    .historia-jho img {
         box-shadow: none;
         margin-right: 15px;
     }
-    
-    .mais{
+
+    .mais {
         text-align: center;
     }
 
-    
-    
+
+
     /* Setas do slide depoimentos */
-.cardDepo .slick-prev
-{
-    left: 30px;
-    z-index: 1;
-}
+    .cardDepo .slick-prev {
+        left: 30px;
+        z-index: 1;
+    }
 
-.cardDepo .slick-next
-{
-   
-    right: 60px;
-}
+    .cardDepo .slick-next {
 
-.depoimentos .cardDepo p{
-    font-size: 15px;
-    
-}
-.depoimentos .cardDepo h5{
-   font-size:15px;
-}
+        right: 60px;
+    }
+
+    .depoimentos .cardDepo p {
+        font-size: 15px;
+
+    }
+
+    .depoimentos .cardDepo h5 {
+        font-size: 15px;
+    }
 
 
 
@@ -95,16 +116,16 @@
 /* ----------------------------- */
 
 @media (max-width:768px) {
-            .banner{
-    display: none;
-    
-}
+    .banner {
+        display: none;
+
+    }
 
 
 
-.topo .rede-social{
-    display: none!important;
-}
+    .topo .rede-social {
+        display: none !important;
+    }
 
 
 }
@@ -119,8 +140,9 @@
 
 
 @media not all and (max-width: 380px) {
+
     .abrir-menu,
-    .fechar-menu{
+    .fechar-menu {
         display: none;
     }
 }
@@ -128,8 +150,8 @@
 /* FIM DO NOT ALL AND 380PX */
 
 @media (max-width: 380px) {
-     .menu{
-        background-color:chocolate;
+    .menu {
+        background-color: chocolate;
         height: 100%;
         position: fixed;
         max-width: 230px;
@@ -140,17 +162,17 @@
 
     }
 
-    .menu ul{
+    .menu ul {
         flex-direction: column;
         gap: 20px;
     }
 
-    .menu ul li a:hover{
+    .menu ul li a:hover {
         color: var(--cor-texto);
     }
 
 
-    .abrir-menu{
+    .abrir-menu {
         background-image: url(../assets/botao_fechado.png);
         background-size: cover;
         padding: 18px;
@@ -160,7 +182,7 @@
     }
 
 
-     .fechar-menu{
+    .fechar-menu {
         background-image: url(../assets/botao_aberto.png);
         background-size: cover;
         padding: 18px;
@@ -169,8 +191,8 @@
         margin: 10px;
     }
 
-    .rede-social{
-        display: none!important;
+    .rede-social {
+        display: none !important;
     }
 
 
