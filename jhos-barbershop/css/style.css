@@ -143,7 +143,7 @@ p {
 .rede-social {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
 }
 
 .rede-social li {
@@ -231,6 +231,17 @@ p {
     width: 100%
 }
 
+.historia-jho-sobre .historia-textos {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.historia-jho-sobre .historia-textos p {
+    margin: 0;
+    text-align: center;
+}
+
 
 .historia-jho p {
     margin-right: 15px;
@@ -266,6 +277,39 @@ p {
     margin-top: 10px;
     text-align: center;
     color: var(--cor-terciaria);
+}
+
+.tabela-servicos {
+    max-width: 760px;
+    width: 100%;
+    margin: 40px auto 50px;
+    background-color: var(--cor-terciaria);
+    padding: 12px 18px;
+    border-radius: 4px;
+}
+
+.linha-servico {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    padding: 8px 0;
+    border-bottom: 2px solid #2b2b2b;
+}
+
+.linha-servico:last-child {
+    border-bottom: none;
+}
+
+.linha-servico span {
+    font-family: var(--fonte-titulo);
+    font-size: 30px;
+    color: #111111;
+    text-transform: uppercase;
+}
+
+.linha-servico span:last-child {
+    white-space: nowrap;
 }
 
 .card-servicos {
@@ -441,6 +485,218 @@ p {
 
 }
 
+.contato-form {
+    max-width: 980px;
+    width: 100%;
+    margin: 60px auto 0;
+    padding: 0 20px 60px;
+    text-align: center;
+}
+
+.contato-badge {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 21px 48px;
+    border-radius: 14px;
+    margin: 10px auto 30px;
+    gap: 4px;
+    min-width: 480px;
+}
+
+.contato-badge h3 {
+    font-family: var(--fonte-titulo);
+    font-size: 39px;
+    color: var(--cor-primaria-2);
+    letter-spacing: 1px;
+}
+
+.contato-badge p {
+    font-family: var(--fonte-texto);
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.contato-form h2 {
+    color: var(--cor-primaria-1);
+    margin-bottom: 35px;
+    font-size: 39px;
+    letter-spacing: 1px;
+}
+
+.form-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.campos-dupla {
+    width: 100%;
+    max-width: 1125px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 0 auto;
+}
+
+.linha-dupla {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+}
+
+.linha-dupla.linha-topo {
+    gap: 360px;
+}
+
+.linha-dupla>input,
+.linha-dupla>select {
+    flex: 0 0 460px;
+    max-width: 100%;
+}
+
+.form-contato input,
+.form-contato select,
+.form-contato textarea {
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    padding: 18px 22px;
+    font-family: var(--fonte-texto);
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+.form-contato input,
+.form-contato select {
+    height: 58px;
+}
+
+.form-contato ::placeholder {
+    color: #ffffff;
+    opacity: 1;
+}
+
+.form-contato select {
+    appearance: none;
+    line-height: 1.2;
+    padding-right: 52px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-image: linear-gradient(45deg, transparent 50%, #ffffff 50%),
+        linear-gradient(135deg, #ffffff 50%, transparent 50%),
+        linear-gradient(to right, transparent, transparent);
+    background-position: calc(100% - 18px) 20px, calc(100% - 12px) 20px, 0 0;
+    background-size: 6px 6px, 6px 6px, 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.form-contato textarea {
+    resize: vertical;
+    min-height: 260px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.botoes-form {
+    width: 100%;
+    max-width: 1125px;
+    display: flex;
+    justify-content: center;
+    gap: 230px;
+    margin: 0 auto;
+}
+
+.botoes-form button {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px 15px 30px 30px;
+    min-width: 330px;
+    height: 69px;
+    padding: 0 28px;
+    font-family: var(--fonte-titulo);
+    font-size: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+}
+
+.botoes-form button[type="submit"] {
+    color: var(--cor-primaria-2);
+}
+
+.botoes-form button:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+.contato-blocos {
+    width: 100%;
+    max-width: 720px;
+    margin: 70px auto 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 32px 50px;
+}
+
+.contato-bloco {
+    background-color: #000000;
+    border: 3px solid var(--cor-primaria-2);
+    border-radius: 24px;
+    padding: 26px 28px;
+    min-height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+}
+
+.contato-bloco h3 {
+    font-family: var(--fonte-texto);
+    font-size: 26px;
+    color: #ffffff;
+}
+
+.contato-bloco p {
+    font-family: var(--fonte-titulo);
+    font-size: 25px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.contato-social {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato-social li {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: var(--cor-primaria-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato-social img {
+    width: 22px;
+    display: block;
+}
+
 
 .logo-top {
     display: flex;
@@ -545,7 +801,7 @@ p {
 
 /* produtos */
 
-.produtos .card-produtos{
+.produtos .card-produtos {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
@@ -587,7 +843,7 @@ p {
     font-size: 30px;
     font-family: var(--fonte-titulo);
     color: var(--cor-primaria-2);
-    
+
     position: relative;
     z-index: 1;
     padding: 0 15px 0 15px;
@@ -622,7 +878,7 @@ p {
     align-self: center;
 }
 
-.flip2 p{
+.flip2 p {
     align-self: center;
 }
 
@@ -664,7 +920,7 @@ p {
 
 }
 
-.produtos .mais{
+.produtos .mais {
     text-align: center;
 }
 

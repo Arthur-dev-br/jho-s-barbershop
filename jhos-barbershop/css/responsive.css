@@ -121,6 +121,33 @@
 
     }
 
+    .tabela-servicos {
+        max-width: 100%;
+        width: calc(100% - 32px);
+        margin: 30px auto 0;
+        box-sizing: border-box;
+    }
+
+    .campos-dupla {
+        gap: 20px;
+    }
+
+    .linha-dupla {
+        grid-template-columns: 1fr;
+        column-gap: 0;
+    }
+
+    .botoes-form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contato-blocos {
+        grid-template-columns: 1fr;
+        gap: 26px;
+    }
+
+
 
 
     .topo .rede-social {
