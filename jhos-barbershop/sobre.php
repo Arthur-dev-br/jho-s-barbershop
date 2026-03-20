@@ -69,7 +69,7 @@
 
     <!-- inicio historia jho -->
 
-    <section class="historia-jho alinhamento">
+    <section class="historia-jho alinhamento historia-jho-sobre">
       <header class="parallax-padrao">
         <h2>
           Conheça Jho
@@ -84,7 +84,7 @@
         <img class="wow animate__animated animate__fadeInUp" src="assets/Jho_Foto_editada.jpg" alt="foto do barbeiro jhonathan">
       </div>
 
-      <div>
+      <div class="historia-textos">
         <p>
          Desde 2016 atuando profissionalmente como barbeiro, Jhonathan desenvolve seu trabalho com foco na excelência do atendimento e na entrega do melhor resultado para cada cliente. 
         </p>
@@ -135,3 +135,4 @@
 
 
 </html>
+

@@ -106,6 +106,96 @@
 
       </header>
 
+      <div class="tabela-servicos">
+        <div class="linha-servico">
+          <span>CORTE SOCIAL 1-2-3-4 SEM TESOURA</span>
+          <span>R$ 35.00</span>
+        </div>
+        <div class="linha-servico">
+          <span>CORTE DEGRADÊ / DE 0 / 1 OU NAVALHADO / TESOURA</span>
+          <span>R$ 40.00</span>
+        </div>
+        <div class="linha-servico">
+          <span>CORTE 1 DE ALTURA + PEZINHO</span>
+          <span>R$ 25.00</span>
+        </div>
+        <div class="linha-servico">
+          <span>CORTE + PENTEADO, A PARTIR</span>
+          <span>R$ 55.00</span>
+        </div>
+        <div class="linha-servico">
+          <span>CORTE + BARBA + SOBRANCELHA</span>
+          <span>R$ 80.00</span>
+        </div>
+        <div class="linha-servico">
+          <span>CORTE + BARBA</span>
+          <span>R$ 70.00</span>
+        </div>
+        <div class="linha-servico">
+          <span>CORTE + SOBRANCELHA</span>
+          <span>R$ 50.00</span>
+        </div>
+        <div class="linha-servico">
+          <span>CORTE + ALISAMENTO, A PARTIR</span>
+          <span>R$ 70.00</span>
+        </div>
+        <div class="linha-servico">
+          <span>CORTE + BARBOTERAPIA</span>
+          <span>R$ 70.00</span>
+        </div>
+        <div class="linha-servico">
+          <span>CORTE INFANTIL</span>
+          <span>R$ 40.00</span>
+        </div>
+        <div class="linha-servico">
+          <span>CORTE + ALISA + PENTEADO, A PARTIR</span>
+          <span>R$ 90.00</span>
+        </div>
+        <div class="linha-servico">
+          <span>CORTE + PROGRESSIVA, A PARTIR</span>
+          <span>R$ 110.00</span>
+        </div>
+        <div class="linha-servico">
+          <span>CORTE + BARBA + SOBRANCELHA + PENTEADO, A PARTIR</span>
+          <span>R$ 100.00</span>
+        </div>
+        <div class="linha-servico">
+          <span>DESIGN PEZINHO</span>
+          <span>R$ 15.00</span>
+        </div>
+        <div class="linha-servico">
+          <span>PROGRESSIVA, A PARTIR</span>
+          <span>R$ 80.00</span>
+        </div>
+        <div class="linha-servico">
+          <span>REFLEXO / LUZES, A PARTIR</span>
+          <span>R$ 70.00</span>
+        </div>
+        <div class="linha-servico">
+          <span>DESIGN BARBA</span>
+          <span>R$ 30.00</span>
+        </div>
+        <div class="linha-servico">
+          <span>DESIGN DE SOBRANCELHA</span>
+          <span>R$ 15.00</span>
+        </div>
+        <div class="linha-servico">
+          <span>PLATINADO GLOBAL + CORTE, A PARTIR</span>
+          <span>R$ 150.00</span>
+        </div>
+        <div class="linha-servico">
+          <span>PENTEADO</span>
+          <span>R$ 25.00</span>
+        </div>
+        <div class="linha-servico">
+          <span>ALISAMENTO + HIDRATAÇÃO</span>
+          <span>R$ 45.00</span>
+        </div>
+        <div class="linha-servico">
+          <span>CORTE + ALISAMENTO + HIDRATAÇÃO</span>
+          <span>R$ 80.00</span>
+        </div>
+      </div>
 
 
     </section>

@@ -48,9 +48,7 @@
   <link rel="stylesheet" href="css/slick-theme.css">
 
   <!-- Animate CSS -->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <!-- Estilo -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
@@ -93,11 +91,77 @@
   <!-- Corpo -->
   <main>
 
+    <!-- inicio formulario contato -->
+    <section class="contato-form">
+      <div class="contato-badge">
+        <h3>JHO'S BARBERSHOP</h3>
+        <p>Entre em contato conosco</p>
+      </div>
+
+      <h2>FORMULÁRIO DE CONTATO</h2>
+
+      <form class="form-contato" action="#" method="post">
+        <div class="campos-dupla">
+          <div class="linha-dupla linha-topo">
+            <input type="text" name="nome" placeholder="Nome Completo" required>
+            <input type="email" name="email" placeholder="E-mail" required>
+          </div>
+
+          <div class="linha-dupla linha-baixo">
+            <input type="tel" name="telefone" placeholder="Telefone" required>
+            <select name="assunto" required>
+              <option value= "" disabled selected>Assunto</option>
+              <option value="corte">Corte</option>
+              <option value="servico">Serviço</option>
+              <option value="barba">Barba</option>
+            </select>
+          </div>
+        </div>
+
+        <textarea name="mensagem" cols="30" rows="10" placeholder="Mensagem" required></textarea>
+
+        <div class="botoes-form">
+          <button type="reset">Limpar</button>
+          <button type="submit">Enviar mensagem</button>
+        </div>
+      </form>
+
+
+      <div class="contato-blocos">
+        <article class="contato-bloco">
+          <h3>Nosso Telefone</h3>
+          <p>11 95887-1348</p>
+        </article>
+
+        <article class="contato-bloco">
+          <h3>Nosso endereço</h3>
+          <p>Av. João Batista Santiago,<br> 1397, Itaim Paulista.</p>
+        </article>
+
+        <article class="contato-bloco">
+          <h3>Nosso e-mail</h3>
+          <p>Jhosbarbershop@gmail.com</p>
+        </article>
+
+        <article class="contato-bloco">
+          <h3>Siga-nos</h3>
+          <ul class="rede-social">
+            <li><a href="#" target="_blank"><img src="assets/whatsapp-24.png" alt="Logo do whatsapp 60x60"></a></li>
+            <li><a href="#" target="_blank"><img src="assets/facebook-24.png" alt="Logo do facebook 60x60"></a></li>
+            <li><a href="#" target="_blank"><img src="assets/instagram-24.png" alt="Logo do instagram 60x60"></a></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+    <!-- fim formulario contato -->
+
     <!-- inicio agendamentos -->
 
     <?php require_once('conteudo/agendamentos.php'); ?>
 
     <!-- fim agendamentos -->
+
+
 
 
 
@@ -117,7 +181,8 @@
 
   <!-- Fim Rodapé -->
 
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
   <script src="js/slick.min.js"></script>
 
