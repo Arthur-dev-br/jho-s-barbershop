@@ -1,3 +1,98 @@
+<?php
+//Import PHPMailer classes into the global namespace
+//These must be at the top of your script, not inside a function
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+
+$ok = 0;
+//email != ''; //
+if (isset($_POST['email'])) {
+
+  //Create an instance; passing `true` enables exceptions
+  require 'vendor/phpmailer/PHPMailer.php';
+  require 'vendor/phpmailer/SMTP.php';
+
+  $mail = new PHPMailer(true);
+
+  try {
+
+
+    // Pegar info do formulário
+    $nome = $_POST["nome"];
+    $email = $_POST["email"];
+    $fone = $_POST["telefone"];
+    $assunto = $_POST["assunto"];
+    $mens = $_POST["mensagem"];
+
+
+    // banco de dados
+    require_once('admin/ControleContato.php');
+
+    $contato = new ClassContato();
+
+    $contato->nomeContato = $nome;
+    $contato->emailContato = $email;
+    $contato->foneContato = $fone;
+    $contato->assuntoContato = $assunto;
+    $contato->mensContato = $mens;
+
+    $contato->Inserir();
+
+
+    //Server settings
+    $mail->SMTPDebug = 0;//SMTP::DEBUG_SERVER                  //Enable verbose debug output
+    $mail->isSMTP();                                            //Send using SMTP
+    $mail->Host = 'smpsistema.com.br';                     //Set the SMTP server to send through
+    $mail->SMTPAuth = true;                                   //Enable SMTP authentication
+    $mail->Username = 'tipi06@smpsistema.com.br';                     //SMTP username
+    $mail->Password = 'SMP-Tipi@@06';                               //SMTP password
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
+    $mail->Port = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+
+    //Recipients
+    $mail->setFrom('tipi06@smpsistema.com.br', 'Site Jhos Barbershop'); //quem dispara o email
+    $mail->addAddress('arthur.cogrodowski@senacsp.edu.br');     //Add a recipient
+
+
+    // $mail->addAddress('ellen@example.com');               //Name is optional
+    // $mail->addReplyTo('info@example.com', 'Information');
+    // $mail->addCC('cc@example.com');
+    // $mail->addBCC('bcc@example.com');
+
+    // //Attachments
+    // $mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachments
+    // $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    //Optional name
+
+    //Content
+    $mail->isHTML(true);                                  //Set email format to HTML
+    $mail->Subject = 'Site Jhos Barbershop';
+    $mail->Body = "
+      Nome: $nome <br>
+      E-mail: $email <br>
+      Telefone: $fone <br>
+      Assunto: $assunto <br>
+      Mensagem: $mens
+    ";
+
+    $mail->AltBody = "
+      Nome: $nome /n
+      E-mail $email /n
+      Telefone: $fone /n
+      Assunto: $assunto /n
+      Mensagem $mens
+    ";
+
+    $mail->send();
+    $ok = 1;
+  } catch (Exception $e) {
+    $ok = 2;
+  }
+}
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -59,7 +154,7 @@
 <body>
   <!-- cabeçalho -->
 
-  <header class="topo topo2">
+  <header class="topo topo2" id="topoFixo">
 
     <div class="site">
 
@@ -68,20 +163,34 @@
       <nav class="menu">
         <button class="fechar-menu"></button>
 
+        <?php $pgAtual = basename($_SERVER['PHP_SELF']); ?>
+
         <!-- nav>ul>li*6>a+tab -->
         <ul>
-          <li><a class="menu-ativo" href="index.php">Home</a></li>
-          <li><a href="sobre.php">Sobre</a></li>
-          <li><a href="servicos.php">Serviços</a></li>
-          <li><a href="galeria.php">Galeria</a></li>
-          <li><a href="contato.php">Contato</a></li>
+          <li><a class="<?php if ($pgAtual == 'index.php')
+            echo 'menu-ativo'; ?>" href="index.php">Home</a></li>
+
+          <li><a class="<?php if ($pgAtual == 'sobre.php')
+            echo 'menu-ativo'; ?>" href="sobre.php">Sobre</a></li>
+
+          <li><a class="<?php if ($pgAtual == 'servicos.php')
+            echo 'menu-ativo'; ?>" href="servicos.php">Serviços</a></li>
+
+          <li><a class="<?php if ($pgAtual == 'galeria.php')
+            echo 'menu-ativo'; ?>" href="galeria.php">Galeria</a></li>
+
+          <li><a class="<?php if ($pgAtual == 'contato.php')
+            echo 'menu-ativo'; ?>" href="contato.php">Contato</a></li>
         </ul>
+
       </nav>
-      <!-- ul>li>a>img+tab -->
-      <ul class="rede-social">
-        <li><a href="#" target="_blank"><img src="assets/instagram-24.png" alt="Logo do instagram 60x60"></a></li>
-        <li><a href="#" target="_blank"><img src="assets/whatsapp-24.png" alt="Logo do whatsapp 60x60"></a></li>
-        <li><a href="#" target="_blank"><img src="assets/facebook-24.png" alt="Logo do facebook 60x60"></a></li>
+      <ul class="rede-social topozao">
+        <li><a href="https://www.instagram.com/jhos_barbershop/" target="_blank"><img src="assets/instagram-24.png"
+              alt="Logo do instagram 60x60"></a></li>
+        <li><a href="https://wa.me/5511958871348" target="_blank"><img src="assets/whatsapp-24.png"
+              alt="Logo do whatsapp 60x60"></a></li>
+        <li><a href="https://www.facebook.com/jhosbarbershop/" target="_blank"><img src="assets/facebook-24.png"
+              alt="Logo do facebook 60x60"></a></li>
       </ul>
 
     </div>
@@ -100,6 +209,15 @@
 
       <h2>FORMULÁRIO DE CONTATO</h2>
 
+      <?php
+      if ($ok == 1) {
+        echo $nome . ", sua mensagem foi enviada com sucesso";
+      } elseif ($ok == 2) {
+        echo $nome . ", não foi possível enviar sua mensagem";
+      }
+
+      ?>
+
       <form class="form-contato" action="#" method="post">
         <div class="campos-dupla">
           <div class="linha-dupla linha-topo">
@@ -110,7 +228,7 @@
           <div class="linha-dupla linha-baixo">
             <input type="tel" name="telefone" placeholder="Telefone" required>
             <select name="assunto" required>
-              <option value= "" disabled selected>Assunto</option>
+              <option value="" disabled selected>Assunto</option>
               <option value="corte">Corte</option>
               <option value="servico">Serviço</option>
               <option value="barba">Barba</option>
@@ -146,9 +264,12 @@
         <article class="contato-bloco">
           <h3>Siga-nos</h3>
           <ul class="rede-social">
-            <li><a href="#" target="_blank"><img src="assets/whatsapp-24.png" alt="Logo do whatsapp 60x60"></a></li>
-            <li><a href="#" target="_blank"><img src="assets/facebook-24.png" alt="Logo do facebook 60x60"></a></li>
-            <li><a href="#" target="_blank"><img src="assets/instagram-24.png" alt="Logo do instagram 60x60"></a></li>
+            <li><a href="https://wa.me/5511958871348" target="_blank"><img src="assets/whatsapp-24.png"
+                  alt="Logo do whatsapp 60x60"></a></li>
+            <li><a href="https://www.facebook.com/jhosbarbershop/" target="_blank"><img src="assets/facebook-24.png"
+                  alt="Logo do facebook 60x60"></a></li>
+            <li><a href="https://www.instagram.com/jhos_barbershop/" target="_blank"><img src="assets/instagram-24.png"
+                  alt="Logo do instagram 60x60"></a></li>
           </ul>
         </article>
       </div>

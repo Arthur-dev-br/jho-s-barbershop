@@ -59,7 +59,7 @@
 <body>
   <!-- cabeçalho -->
 
-  <header class="topo topo2">
+  <header class="topo topo2" id="topoFixo">
 
     <div class="site">
 
@@ -68,20 +68,34 @@
       <nav class="menu">
         <button class="fechar-menu"></button>
 
+        <?php $pgAtual = basename($_SERVER['PHP_SELF']); ?>
+
         <!-- nav>ul>li*6>a+tab -->
         <ul>
-          <li><a class="menu-ativo" href="index.php">Home</a></li>
-          <li><a href="sobre.php">Sobre</a></li>
-          <li><a href="servicos.php">Serviços</a></li>
-          <li><a href="galeria.php">Galeria</a></li>
-          <li><a href="contato.php">Contato</a></li>
+          <li><a class="<?php if ($pgAtual == 'index.php')
+            echo 'menu-ativo'; ?>" href="index.php">Home</a></li>
+
+          <li><a class="<?php if ($pgAtual == 'sobre.php')
+            echo 'menu-ativo'; ?>" href="sobre.php">Sobre</a></li>
+
+          <li><a class="<?php if ($pgAtual == 'servicos.php')
+            echo 'menu-ativo'; ?>" href="servicos.php">Serviços</a></li>
+
+          <li><a class="<?php if ($pgAtual == 'galeria.php')
+            echo 'menu-ativo'; ?>" href="galeria.php">Galeria</a></li>
+
+          <li><a class="<?php if ($pgAtual == 'contato.php')
+            echo 'menu-ativo'; ?>" href="contato.php">Contato</a></li>
         </ul>
+        
       </nav>
-      <!-- ul>li>a>img+tab -->
-      <ul class="rede-social">
-        <li><a href="#" target="_blank"><img src="assets/instagram-24.png" alt="Logo do instagram 60x60"></a></li>
-        <li><a href="#" target="_blank"><img src="assets/whatsapp-24.png" alt="Logo do whatsapp 60x60"></a></li>
-        <li><a href="#" target="_blank"><img src="assets/facebook-24.png" alt="Logo do facebook 60x60"></a></li>
+      <ul class="rede-social topozao">
+        <li><a href="https://www.instagram.com/jhos_barbershop/" target="_blank"><img src="assets/instagram-24.png"
+              alt="Logo do instagram 60x60"></a></li>
+        <li><a href="https://wa.me/5511958871348" target="_blank"><img src="assets/whatsapp-24.png"
+              alt="Logo do whatsapp 60x60"></a></li>
+        <li><a href="https://www.facebook.com/jhosbarbershop/" target="_blank"><img src="assets/facebook-24.png"
+              alt="Logo do facebook 60x60"></a></li>
       </ul>
 
     </div>
@@ -230,7 +244,7 @@
             </div>
 
             <div class="flip2">
-              
+
 
               <h4>
                 pomada extra forte “fox for men”
@@ -343,7 +357,7 @@
             </div>
 
             <div class="flip2">
-               <h4>
+              <h4>
                 shaving gel “fox for men” 500g
               </h4>
               <h5>
@@ -371,7 +385,7 @@
             </div>
 
             <div class="flip2">
-               <h4>
+              <h4>
                 limpador facial “fox for men” 250g
               </h4>
               <h5>
@@ -434,7 +448,7 @@
                 R$ 35,00
               </h5>
               <p>
-                Óleo para barba 
+                Óleo para barba
               </p>
 
             </div>
@@ -490,7 +504,7 @@
                 R$ 35,00
               </h5>
               <p>
-                Loção pós barba 
+                Loção pós barba
               </p>
 
             </div>
@@ -506,13 +520,13 @@
             <div class="flip1">
               <img src="assets/gel_cola.png" alt="imagem de um kit de produtos para cabelo">
               <h4>
-                Gel Cola  “fox for men” 300g
+                Gel Cola “fox for men” 300g
               </h4>
             </div>
 
             <div class="flip2">
               <h4>
-                Gel Cola  “fox for men” 300g
+                Gel Cola “fox for men” 300g
               </h4>
               <h5>
                 R$ 35,00
@@ -616,19 +630,19 @@
             <div class="flip1">
               <img src="assets/mascara_black.png" alt="imagem de um kit de produtos para cabelo">
               <h4>
-                Máscara Black “fox for men” 120ML 
+                Máscara Black “fox for men” 120ML
               </h4>
             </div>
 
             <div class="flip2">
-               <h4>
-                Máscara Black “fox for men” 120ML 
+              <h4>
+                Máscara Black “fox for men” 120ML
               </h4>
               <h5>
                 R$ 35,00
               </h5>
               <p>
-                Máscara Facial 
+                Máscara Facial
               </p>
 
             </div>
@@ -637,7 +651,7 @@
 
         </div>
 
-       
+
 
 
 

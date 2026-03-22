@@ -48,9 +48,7 @@
   <link rel="stylesheet" href="css/slick-theme.css">
 
   <!-- Animate CSS -->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <!-- Estilo -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
@@ -75,22 +73,77 @@
           Conheça Jho
         </h2>
         <h3>
-          suas formações e habilidades
+          Sua história e ideais
         </h3>
 
       </header>
 
       <div>
-        <img class="wow animate__animated animate__fadeInUp" src="assets/Jho_Foto_editada.jpg" alt="foto do barbeiro jhonathan">
+        <img class="wow animate__animated animate__fadeInUp" src="assets/Jho_Foto_editada.jpg"
+          alt="foto do barbeiro jhonathan">
       </div>
 
       <div class="historia-textos">
+        <h2>
+          Sobre mim
+        </h2>
+
         <p>
-         Desde 2016 atuando profissionalmente como barbeiro, Jhonathan desenvolve seu trabalho com foco na excelência do atendimento e na entrega do melhor resultado para cada cliente. 
+          Desde 2016 atuando profissionalmente como barbeiro, desenvolvo meu trabalho com foco na excelência do
+          atendimento e na entrega do melhor resultado para cada cliente. Ao longo da minha trajetória, venho
+          aprimorando constantemente minhas técnicas, sempre buscando atualização e evolução dentro da área.
+        </p>
+
+        <p>
+          Meu compromisso é proporcionar não apenas um corte de cabelo ou design de barba, mas uma experiência completa,
+          marcada pelo cuidado, atenção aos detalhes e respeito ao estilo individual de cada cliente. Para garantir a
+          máxima qualidade no atendimento, trabalho sempre com marcas reconhecidas e produtos de alto padrão.
+        </p>
+
+        <p>
+          Mais do que um serviço, meu objetivo é oferecer um momento de cuidado pessoal, confiança e satisfação para
+          cada cliente que passa pela cadeira.
+        </p>
+
+        <h2>
+          Nossa Visão
+        </h2>
+
+        <p>
+          Nossa visão é ser reconhecida como uma barbearia de referência em qualidade, profissionalismo e experiência do
+          cliente. Buscamos crescer de forma sólida, conquistando a confiança de cada pessoa que passa pela nossa
+          cadeira, sempre mantendo um padrão elevado de atendimento e resultado.
+        </p>
+
+        <p>
+          Queremos continuar evoluindo, acompanhando as tendências do mercado e aprimorando constantemente nossas
+          técnicas, para oferecer sempre o melhor em cortes, barba e cuidados masculinos.
+        </p>
+        <h2>
+          Nossos Valores
+        </h2>
+        <p>
+          Qualidade: Compromisso com excelência em cada atendimento.
+        </p>
+
+        <p>
+          Respeito ao cliente: Cada cliente é único e merece atenção personalizada.
         </p>
         <p>
-          Ao longo
+          Profissionalismo: Pontualidade, organização e dedicação em todos os serviços.
         </p>
+        <p>
+          Atualização constante: Busca contínua por novas técnicas, tendências e aperfeiçoamento profissional.
+        </p>
+        <p>
+          Experiência do cliente: Proporcionar um ambiente agradável e um atendimento que vá além do esperado.
+        </p>
+        <h2>Jho’s Barbershop - Seu visual nas mãos de quem leva a barbearia a sério</h2>
+        <p>A Jho’s Barbershop nasceu com um propósito: elevar o padrão da barbearia, unindo técnica, qualidade e
+          experiência em cada atendimento.</p>
+
+
+
       </div>
 
 
@@ -119,7 +172,8 @@
 
   <!-- Fim Rodapé -->
 
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
   <script src="js/slick.min.js"></script>
 
@@ -135,4 +189,3 @@
 
 
 </html>
-

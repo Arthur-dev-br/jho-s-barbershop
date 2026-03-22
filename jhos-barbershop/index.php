@@ -47,7 +47,7 @@
 
 </head>
 
-<body>
+<body class="home-page">
   <!-- cabeçalho -->
 
   <?php require_once('conteudo/topo.php') ?>
