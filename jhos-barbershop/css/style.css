@@ -198,7 +198,7 @@ p {
 }
 
 .rede-social li:hover {
-    background-color: var(--cor-titulo);
+    background-color: var(--cor-primaria-1);
     transform: translateY(-3px) scale(1.15);
     /* Box-shadow: X, Y, Desfoque e Cor */
     box-shadow: 0 5px 10px var(--cor-primaria-2);
@@ -427,6 +427,11 @@ p {
 
 }
 
+.galeria p{
+    text-align: center;
+    font-size: 15px;
+}
+
 .galeria .cards-galeria {
     display: flex;
     justify-content: center;
@@ -573,6 +578,18 @@ p {
     margin-bottom: 35px;
     font-size: 39px;
     letter-spacing: 1px;
+}
+
+.mensagem-contato {
+    margin: 0 0 28px;
+}
+
+.mensagem-sucesso {
+    color: #1f7a3f;
+}
+
+.mensagem-erro {
+    color: #b22222;
 }
 
 .form-contato {
@@ -824,9 +841,16 @@ p {
 
 .registroDepo {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     font-family: var(--fonte-texto);
     font-size: 25px;
+}
+
+.depoimentos .cardDepo .registroDepo h5 {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
 
 .cardDepo .slick-prev:before,
@@ -1055,13 +1079,13 @@ p {
 
 
 
-/* .creditos{
-    width: 100%;
-}
+
 
 .creditos h2{
     text-align: center;
     font-family: var(--fonte-texto);
     font-size: 25px;
     color: var(--cor-primaria-2);
-}  */
+    margin: 0;
+    padding-bottom: 20px;
+}  
