@@ -1,163 +1,249 @@
-<section class="depoimentos">
-            <header class="parallax-padrao">
-                <h2>
-                    Depoimentos
-                </h2>
-                <h3>
-                    Avaliações do nossos serviços!
-                </h3>
+﻿<section class="depoimentos">
+    <header class="parallax-padrao">
+        <h2>
+            Depoimentos
+        </h2>
+        <h3>
+            Avaliações do nossos serviços!
+        </h3>
 
-            </header>
-            <div class="site cardDepo">
-                <article>
-    
-                    <ul>
-                        <li>
-                            <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
-                        </li>
-        
-                        <li>
-                            <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
-                        </li>
-        
-                        <li>
-                            <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
-                        </li>
-        
-                        <li>
-                            <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
-                        </li>
-        
-                        <li>
-                            <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
-                        </li>
-                    </ul>
-                    
-                    <img src="assets/reginildo_cliente.png" alt="foto do usuário">
-        
-                    <p>
-                       Foi a melhor experiência que já tive em uma barbearia, do inicio ao fim o processo foi tratado de forma cautelosa e tudo conforme o que eu queria, além de um local muito tranquilo e confortante, meus parabéns por esse lugar! fui muito bem recebido, com certeza voltarei mais vezes, super recomendo.
-                    </p>
-        
-                    <h4>
-                        Reginildo Costa Pinto
-                    </h4>
-        
-                    <div class="registroDepo">
-                        <h5>
-                            06/02/2026
-                        </h5>
-        
-                        <h5>
-                            barboterapia
-                        </h5>
-        
-                    </div>
-                    
-                </article>
+    </header>
+    <div class="site cardDepo">
 
-                 <article>
-    
-                    <ul>
-                        <li>
-                            <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
-                        </li>
-        
-                        <li>
-                            <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
-                        </li>
-        
-                        <li>
-                            <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
-                        </li>
-        
-                        <li>
-                            <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
-                        </li>
-        
-                        <li>
-                            <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
-                        </li>
-                    </ul>
-                    
-                    <img src="assets/reginildo_cliente.png" alt="foto do usuário">
-        
-                    <p>
-                       Foi a melhor experiência que já tive em uma barbearia, do inicio ao fim o processo foi tratado de forma cautelosa e tudo conforme o que eu queria, além de um local muito tranquilo e confortante, meus parabéns por esse lugar! fui muito bem recebido, com certeza voltarei mais vezes, super recomendo.
-                    </p>
-        
-                    <h4>
-                        Reginildo Costa Pinto
-                    </h4>
-        
-                    <div class="registroDepo">
-                        <h5>
-                            06/02/2026
-                        </h5>
-        
-                        <h5>
-                            barboterapia
-                        </h5>
-        
-                    </div>
-                    
-                </article>
+        <article>
 
-                 <article>
-    
-                    <ul>
-                        <li>
-                            <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
-                        </li>
-        
-                        <li>
-                            <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
-                        </li>
-        
-                        <li>
-                            <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
-                        </li>
-        
-                        <li>
-                            <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
-                        </li>
-        
-                        <li>
-                            <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
-                        </li>
-                    </ul>
-                    
-                    <img src="assets/reginildo_cliente.png" alt="foto do usuário">
-        
-                    <p>
-                       Foi a melhor experiência que já tive em uma barbearia, do inicio ao fim o processo foi tratado de forma cautelosa e tudo conforme o que eu queria, além de um local muito tranquilo e confortante, meus parabéns por esse lugar! fui muito bem recebido, com certeza voltarei mais vezes, super recomendo.
-                    </p>
-        
-                    <h4>
-                        Reginildo Costa Pinto
-                    </h4>
-        
-                    <div class="registroDepo">
-                        <h5>
-                            06/02/2026
-                        </h5>
-        
-                        <h5>
-                            barboterapia
-                        </h5>
-        
-                    </div>
-                    
-                </article>
+            <ul>
+                <li>
+                    <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
+                </li>
+
+                <li>
+                    <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
+                </li>
+
+                <li>
+                    <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
+                </li>
+
+                <li>
+                    <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
+                </li>
+
+                <li>
+                    <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
+                </li>
+            </ul>
+
+            <img src="assets/cliente_foto2.png" alt="foto do usuario">
+
+            <p>
+                Excelente profissional com diversas opções de serviço, ambiente agradável e confortável. Super
+                recomendo!!!!!!
+            </p>
+
+            <h4>
+                Rudy Alessandro
+            </h4>
+
+            <div class="registroDepo">
+
+
+                <h5>
+                    Corte de cabelo, Aparar a barba
+                </h5>
+
+            </div>
+
+        </article>
+
+        <article>
+
+            <ul>
+                <li>
+                    <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
+                </li>
+
+                <li>
+                    <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
+                </li>
+
+                <li>
+                    <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
+                </li>
+
+                <li>
+                    <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
+                </li>
+
+                <li>
+                    <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
+                </li>
+            </ul>
+
+            <img src="assets/cliente_foto3.png" alt="foto do usuario">
+
+            <p>
+                Melhor salão da região, menos de 5 estrelas é inveja!
+
+            <h4>
+                Wil V
+            </h4>
+
+            <div class="registroDepo">
+
+
+                <h5>
+                    Corte de cabelo, Aparar a barba, Depilação de sobrancelha
+                </h5>
+
+            </div>
+
+        </article>
+
+        <article>
+
+            <ul>
+                <li>
+                    <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
+                </li>
+
+                <li>
+                    <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
+                </li>
+
+                <li>
+                    <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
+                </li>
+
+                <li>
+                    <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
+                </li>
+
+                <li>
+                    <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
+                </li>
+            </ul>
+
+            <img src="assets/cliente_foto4.png" alt="foto do usuario">
+
+            <p>
+                Corto a mais de 2 anos e super recomendo !!
+                Ambiente legal, limpo e organizado.
+                Indico a todos a dar uma passada lá pra cuidar do visual.
+            </p>
+
+            <h4>
+                Elivelton Souza Barbosa
+            </h4>
+
+            <div class="registroDepo">
 
 
             </div>
-            
+
+        </article>
+
+        <article>
+
+            <ul>
+                <li>
+                    <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
+                </li>
+
+                <li>
+                    <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
+                </li>
+
+                <li>
+                    <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
+                </li>
+
+                <li>
+                    <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
+                </li>
+
+                <li>
+                    <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
+                </li>
+            </ul>
+
+            <img src="assets/cliente_foto5.png" alt="foto do usuario">
+
+            <p>
+                Atendimento muito bom e satisfatório
+            </p>
+
+            <h4>
+                Caique Santos
+            </h4>
+
+            <div class="registroDepo">
+
+
+                <h5>
+                    Corte de cabelo, Depilação de sobrancelha
+                </h5>
+
+            </div>
+
+        </article>
+
+        <article>
+
+            <ul>
+                <li>
+                    <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
+                </li>
+
+                <li>
+                    <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
+                </li>
+
+                <li>
+                    <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
+                </li>
+
+                <li>
+                    <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
+                </li>
+
+                <li>
+                    <img src="assets/estrela_avaliacao.png" alt="estrela para avaliar">
+                </li>
+            </ul>
+
+            <img src="assets/cliente_foto1.png" alt="foto do usuario">
+
+            <p>
+                Excelente profissional . O melhor cabeleireiro da região , super indico . Meu filho não troca ele por
+                nenhum outro.
+            </p>
+
+            <h4>
+                Sabrina Almeida
+            </h4>
+
+            <div class="registroDepo">
+
+
+                <h5>
+                    Corte de cabelo
+                </h5>
+
+            </div>
+
+        </article>
 
 
 
 
-            
-            
+    </div>
 
-        </section>
+
+
+
+
+
+
+
+</section>

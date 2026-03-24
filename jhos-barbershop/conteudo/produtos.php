@@ -26,9 +26,7 @@
                     <h4>
                         pomada extra forte “fox for men”
                     </h4>
-                    <h4>
-                        R$ 35,00
-                    </h4>
+                    
                     <p>
                         Pomadas para cabelo
                     </p>
@@ -53,9 +51,7 @@
                     <h4>
                         pomada matte “fox for men”
                     </h4>
-                    <h4>
-                        R$ 35,00
-                    </h4>
+                    
                     <p>
                         cera modeladora efeito matte
                     </p>
@@ -81,9 +77,7 @@
                     <h4>
                         pomada teia “fox for men”
                     </h4>
-                    <h4>
-                        R$ 35,00
-                    </h4>
+                    
                     <p>
                         creme modelador efeito teia
                     </p>
