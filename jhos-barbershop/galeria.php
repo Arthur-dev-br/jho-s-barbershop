@@ -201,6 +201,8 @@
 
 
         </article>
+        
+        <p>Obs:O Programador desse site NÃO é responsável pela adição das imagens de clientes menores de idade </p>
 
 
 

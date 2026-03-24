@@ -211,9 +211,9 @@ if (isset($_POST['email'])) {
 
       <?php
       if ($ok == 1) {
-        echo $nome . ", sua mensagem foi enviada com sucesso";
+        echo '<h2 class="mensagem-contato mensagem-sucesso">' . htmlspecialchars($nome, ENT_QUOTES, 'UTF-8') . ', sua mensagem foi enviada com sucesso</h2>';
       } elseif ($ok == 2) {
-        echo $nome . ", não foi possível enviar sua mensagem";
+        echo '<h2 class="mensagem-contato mensagem-erro">' . htmlspecialchars($nome, ENT_QUOTES, 'UTF-8') . ', não foi possível enviar sua mensagem</h2>';
       }
 
       ?>

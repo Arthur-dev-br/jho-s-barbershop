@@ -87,7 +87,7 @@
           <li><a class="<?php if ($pgAtual == 'contato.php')
             echo 'menu-ativo'; ?>" href="contato.php">Contato</a></li>
         </ul>
-        
+
       </nav>
       <ul class="rede-social topozao">
         <li><a href="https://www.instagram.com/jhos_barbershop/" target="_blank"><img src="assets/instagram-24.png"
@@ -249,9 +249,7 @@
               <h4>
                 pomada extra forte “fox for men”
               </h4>
-              <h4>
-                R$ 35,00
-              </h4>
+
               <p>
                 Pomadas para cabelo
               </p>
@@ -276,9 +274,7 @@
               <h4>
                 pomada matte “fox for men”
               </h4>
-              <h4>
-                R$ 35,00
-              </h4>
+
               <p>
                 cera modeladora efeito matte
               </p>
@@ -302,11 +298,9 @@
 
             <div class="flip2">
               <h4>
-                pomada teia “fox for men” 80g
+                <a href="https://foxformen.com.br/produto/pomada-modeladora-teia-150g/?utm_source=chatgpt.com">pomada teia “fox for men” 80g</a>
               </h4>
-              <h4>
-                R$ 35,00
-              </h4>
+
               <p>
                 creme modelador efeito teia
               </p>
@@ -332,9 +326,7 @@
               <h4>
                 modelador em pó “fox for men” 7g
               </h4>
-              <h5>
-                R$ 35,00
-              </h5>
+
               <p>
                 modelador em pó para o couro cabeludo
               </p>
@@ -360,9 +352,7 @@
               <h4>
                 shaving gel “fox for men” 500g
               </h4>
-              <h5>
-                R$ 35,00
-              </h5>
+
               <p>
                 gel de barbear 500g
               </p>
@@ -388,9 +378,7 @@
               <h4>
                 limpador facial “fox for men” 250g
               </h4>
-              <h5>
-                R$ 35,00
-              </h5>
+
               <p>
                 limpador facial pré barba
               </p>
@@ -416,9 +404,7 @@
               <h4>
                 Balm para barba “fox for men” 120ml
               </h4>
-              <h5>
-                R$ 35,00
-              </h5>
+
               <p>
                 hidratação para a barba
               </p>
@@ -444,9 +430,7 @@
               <h4>
                 Óleo para barba “fox for men” 60ml
               </h4>
-              <h5>
-                R$ 35,00
-              </h5>
+
               <p>
                 Óleo para barba
               </p>
@@ -472,9 +456,7 @@
               <h4>
                 Hidratante facial Pós barba “fox for men” 120ml
               </h4>
-              <h5>
-                R$ 35,00
-              </h5>
+
               <p>
                 Hidratante facial pós barba
               </p>
@@ -500,9 +482,7 @@
               <h4>
                 Loção pós barba “fox for men” 240ml
               </h4>
-              <h5>
-                R$ 35,00
-              </h5>
+
               <p>
                 Loção pós barba
               </p>
@@ -528,9 +508,7 @@
               <h4>
                 Gel Cola “fox for men” 300g
               </h4>
-              <h5>
-                R$ 35,00
-              </h5>
+
               <p>
                 Pomadas para cabelo
               </p>
@@ -556,9 +534,7 @@
               <h4>
                 Shampo Anti Caspa “fox for men”
               </h4>
-              <h5>
-                R$ 35,00
-              </h5>
+
               <p>
                 Pomadas para cabelo
               </p>
@@ -584,9 +560,7 @@
               <h4>
                 Shampoo 4 em 1 “fox for men” 240 ML
               </h4>
-              <h5>
-                R$ 35,00
-              </h5>
+
               <p>
                 Pomadas para cabelo
               </p>
@@ -611,9 +585,7 @@
               <h4>
                 Esfoliante Facial Pré Barba “fox for men” 120ML
               </h4>
-              <h5>
-                R$ 35,00
-              </h5>
+
               <p>
                 Pomadas para cabelo
               </p>
@@ -638,9 +610,7 @@
               <h4>
                 Máscara Black “fox for men” 120ML
               </h4>
-              <h5>
-                R$ 35,00
-              </h5>
+
               <p>
                 Máscara Facial
               </p>
