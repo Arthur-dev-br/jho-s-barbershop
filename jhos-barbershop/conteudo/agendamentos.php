@@ -33,7 +33,7 @@
             </div>
 
             <div class="link-app wow animate__animated animate__fadeInUp animate__delay-2s">
-                <a href="https://share.google/IZiwIKeRguvVByaLO">Baixe aqui</a>
+                <a href="https://share.google/IZiwIKeRguvVByaLO" target="_blank">Baixe aqui</a>
             </div>
 
 

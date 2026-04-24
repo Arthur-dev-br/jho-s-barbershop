@@ -11,19 +11,22 @@
             <!-- nav>ul>li*6>a+tab -->
             <ul>
                 <li><a class="<?php if ($pgAtual == 'index.php')
-                    echo 'menu-ativo'; ?>" href="index.php">Home</a></li>
+                                    echo 'menu-ativo'; ?>" href="index.php">Home</a></li>
 
                 <li><a class="<?php if ($pgAtual == 'sobre.php')
-                    echo 'menu-ativo'; ?>" href="sobre.php">Sobre</a></li>
+                                    echo 'menu-ativo'; ?>" href="sobre.php">Sobre</a></li>
 
                 <li><a class="<?php if ($pgAtual == 'servicos.php')
-                    echo 'menu-ativo'; ?>" href="servicos.php">Serviços</a></li>
+                                    echo 'menu-ativo'; ?>" href="servicos.php">Serviços</a></li>
+
+                <li><a class="<?php if ($pgAtual == 'produtos.php')
+                                    echo 'menu-ativo'; ?>" href="produtos.php">Produtos</a></li>
 
                 <li><a class="<?php if ($pgAtual == 'galeria.php')
-                    echo 'menu-ativo'; ?>" href="galeria.php">Galeria</a></li>
+                                    echo 'menu-ativo'; ?>" href="galeria.php">Galeria</a></li>
 
                 <li><a class="<?php if ($pgAtual == 'contato.php')
-                    echo 'menu-ativo'; ?>" href="contato.php">Contato</a></li>
+                                    echo 'menu-ativo'; ?>" href="contato.php">Contato</a></li>
             </ul>
 
         </nav>
