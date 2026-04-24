@@ -73,20 +73,24 @@
         <!-- nav>ul>li*6>a+tab -->
         <ul>
           <li><a class="<?php if ($pgAtual == 'index.php')
-            echo 'menu-ativo'; ?>" href="index.php">Home</a></li>
+                          echo 'menu-ativo'; ?>" href="index.php">Home</a></li>
 
           <li><a class="<?php if ($pgAtual == 'sobre.php')
-            echo 'menu-ativo'; ?>" href="sobre.php">Sobre</a></li>
+                          echo 'menu-ativo'; ?>" href="sobre.php">Sobre</a></li>
 
           <li><a class="<?php if ($pgAtual == 'servicos.php')
-            echo 'menu-ativo'; ?>" href="servicos.php">Serviços</a></li>
+                          echo 'menu-ativo'; ?>" href="servicos.php">Serviços</a></li>
+
+          <li><a class="<?php if ($pgAtual == 'produtos.php')
+                          echo 'menu-ativo'; ?>" href="produtos.php">Produtos</a></li>
 
           <li><a class="<?php if ($pgAtual == 'galeria.php')
-            echo 'menu-ativo'; ?>" href="galeria.php">Galeria</a></li>
+                          echo 'menu-ativo'; ?>" href="galeria.php">Galeria</a></li>
 
           <li><a class="<?php if ($pgAtual == 'contato.php')
-            echo 'menu-ativo'; ?>" href="contato.php">Contato</a></li>
+                          echo 'menu-ativo'; ?>" href="contato.php">Contato</a></li>
         </ul>
+
 
       </nav>
       <ul class="rede-social topozao">
@@ -120,518 +124,504 @@
 
       </header>
 
-      <div class="tabela-servicos">
-        <div class="linha-servico">
-          <span>CORTE SOCIAL 1-2-3-4 SEM TESOURA</span>
-          <span>R$ 35.00</span>
+      <div class="site card-produtos">
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1 flip1serv">
+              <h4>CORTE SOCIAL 1-2-3-4 SEM TESOURA </h4>
+            </div>
+            <div class="flip2">
+              <h4>
+                Corte Social 1-2-3-4 Sem Tesoura
+              </h4>
+              <h4>
+                R$ 35,00
+              </h4>
+              <h5>
+                Corte social é um corte de cabelo masculino clássico, caracterizado por ser curto nas laterais e mais longo no topo.
+              </h5>
+
+            </div>
+
+          </article>
         </div>
-        <div class="linha-servico">
-          <span>CORTE DEGRADÊ / DE 0 / 1 OU NAVALHADO / TESOURA</span>
-          <span>R$ 40.00</span>
+
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1 flip1serv2">
+              <h4>CORTE DEGRADÊ / DE 0 / 1 OU NAVALHADO / TESOURA</h4>
+            </div>
+            <div class="flip2">
+              <h4>
+                Corte Degradê / De 0 / 1 ou Navalhado / Tesoura
+              </h4>
+              <h4>
+                R$ 40,00
+              </h4>
+              <h5>
+                Corte Degradê / De 0 / 1 ou Navalhado / Tesoura é um corte de cabelo masculino que consiste em uma transição suave entre diferentes comprimentos, criando um visual moderno e estilizado.
+              </h5>
+
+            </div>
+
+          </article>
         </div>
-        <div class="linha-servico">
-          <span>CORTE 1 DE ALTURA + PEZINHO</span>
-          <span>R$ 25.00</span>
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1 flip1serv3">
+              <h4>CORTE 1 DE ALTURA + PEZINHO </h4>
+            </div>
+            <div class="flip2">
+              <h4>
+                Corte 1 de Altura + Pezinho
+              </h4>
+              <h4>
+                R$ 25,00
+              </h4>
+              <h5>
+                Corte 1 de Altura + Pezinho é um serviço que consiste em cortar o cabelo em uma única altura e finalizar com um pezinho estilizado.
+              </h5>
+
+            </div>
+
+          </article>
         </div>
-        <div class="linha-servico">
-          <span>CORTE + PENTEADO, A PARTIR</span>
-          <span>R$ 55.00</span>
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1 flip1serv4">
+              <h4>CORTE + PENTEADO </h4>
+            </div>
+            <div class="flip2">
+              <h4>
+                Corte + Penteado
+              </h4>
+              <h4>
+                R$ 55,00
+              </h4>
+              <h5>
+                Corte + Penteado é um serviço completo que consiste em modelar e definir o cabelo com um processo de penteado, criando um visual mais delineado e estilizado.
+              </h5>
+
+            </div>
+
+          </article>
         </div>
-        <div class="linha-servico">
-          <span>CORTE + BARBA + SOBRANCELHA</span>
-          <span>R$ 80.00</span>
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1 flip1serv5">
+              <h4>CORTE + BARBA + SOBRANCELHA </h4>
+            </div>
+            <div class="flip2">
+              <h4>
+                Corte + Barba + Sobrancelha
+              </h4>
+              <h4>
+                R$ 80,00
+              </h4>
+              <h5>
+                Corte + Barba + Sobrancelha é um serviço completo que consiste em modelar e definir o cabelo com um processo de barba e sobrancelha, criando um visual mais delineado e estilizado.
+              </h5>
+
+            </div>
+
+          </article>
         </div>
-        <div class="linha-servico">
-          <span>CORTE + BARBA</span>
-          <span>R$ 70.00</span>
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1 flip1serv6">
+              <h4>CORTE + BARBA </h4>
+            </div>
+            <div class="flip2">
+              <h4>
+                Corte + Barba
+              </h4>
+              <h4>
+                R$ 70,00
+              </h4>
+              <h5>
+                Corte + Barba é um serviço completo que consiste em modelar e definir o cabelo com um processo de barba, criando um visual mais delineado e estilizado.
+              </h5>
+
+            </div>
+
+          </article>
         </div>
-        <div class="linha-servico">
-          <span>CORTE + SOBRANCELHA</span>
-          <span>R$ 50.00</span>
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1 flip1serv7">
+              <h4>CORTE + SOBRANCELHA </h4>
+            </div>
+            <div class="flip2">
+              <h4>
+                Corte + Sobrancelha
+              </h4>
+              <h4>
+                R$ 50,00
+              </h4>
+              <h5>
+                Corte + Sobrancelha é um serviço completo que consiste em modelar e definir o cabelo com um processo de sobrancelha, criando um visual mais delineado e estilizado.
+              </h5>
+
+            </div>
+
+          </article>
         </div>
-        <div class="linha-servico">
-          <span>CORTE + ALISAMENTO, A PARTIR</span>
-          <span>R$ 70.00</span>
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1 flip1serv8">
+              <h4>CORTE + ALISAMENTO </h4>
+            </div>
+            <div class="flip2">
+              <h4>
+                Corte + Alisamento, A Partir
+              </h4>
+              <h4>
+                R$ 70,00
+              </h4>
+              <h5>
+                Corte + Alisamento é um serviço completo que consiste em modelar e definir o cabelo com um processo de alisamento, criando um visual mais suave e moderno.
+              </h5>
+
+            </div>
+
+          </article>
         </div>
-        <div class="linha-servico">
-          <span>CORTE + BARBOTERAPIA</span>
-          <span>R$ 70.00</span>
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1 flip1serv9">
+              <h4>CORTE + BARBOTERAPIA </h4>
+            </div>
+            <div class="flip2">
+              <h4>
+                Corte + Barboterapia
+              </h4>
+              <h4>
+                R$ 70,00
+              </h4>
+              <h5>
+                Corte + Barboterapia é um serviço completo que consiste em modelar e definir o cabelo com um processo de barboterapia, criando um visual mais hidratado e saudável.
+              </h5>
+
+            </div>
+
+          </article>
         </div>
-        <div class="linha-servico">
-          <span>CORTE INFANTIL</span>
-          <span>R$ 40.00</span>
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1 flip1serv10">
+              <h4>CORTE INFANTIL </h4>
+            </div>
+            <div class="flip2">
+              <h4>
+                Corte Infantil
+              </h4>
+              <h4>
+                R$ 40,00
+              </h4>
+              <h5>
+                Corte infantil é um corte de cabelo para crianças, caracterizado por ser simples e adequado para o estilo de vida ativo.
+              </h5>
+
+            </div>
+
+          </article>
         </div>
-        <div class="linha-servico">
-          <span>CORTE + ALISA + PENTEADO, A PARTIR</span>
-          <span>R$ 90.00</span>
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1 flip1serv11">
+              <h4>CORTE + ALISA + PENTEADO, A PARTIR</h4>
+            </div>
+            <div class="flip2">
+              <h4>
+                Corte + Alisa + Penteado, A Partir
+              </h4>
+              <h4>
+                R$ 90,00
+              </h4>
+              <h5>
+                O corte + alisa + penteado é um serviço completo que consiste em modelar e definir o cabelo com um processo de alisamento, criando um visual mais suave e moderno.
+              </h5>
+
+            </div>
+
+          </article>
         </div>
-        <div class="linha-servico">
-          <span>CORTE + PROGRESSIVA, A PARTIR</span>
-          <span>R$ 110.00</span>
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1 flip1serv12">
+              <h4>CORTE + PROGRESSIVA </h4>
+            </div>
+            <div class="flip2">
+              <h4>
+                Corte + Progressiva, A Partir
+              </h4>
+              <h4>
+                R$ 110,00
+              </h4>
+              <h5>
+                O corte + progressiva é um serviço completo que consiste em modelar e definir o cabelo com um processo de clareamento, criando um visual mais iluminado e moderno.
+              </h5>
+
+            </div>
+
+          </article>
         </div>
-        <div class="linha-servico">
-          <span>CORTE + BARBA + SOBRANCELHA + PENTEADO, A PARTIR</span>
-          <span>R$ 100.00</span>
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1 flip1serv13">
+              <h4>CORTE + BARBA + SOBRANCELHA + PENTEADO </h4>
+            </div>
+            <div class="flip2">
+              <h4>
+                Corte + Barba + Sobrancelha + Penteado, A Partir
+              </h4>
+              <h4>
+                R$ 100,00
+              </h4>
+              <h5>
+                O corte + barba + sobrancelha + penteado é um serviço completo que consiste em modelar e definir o cabelo, a barba e as sobrancelhas, criando um visual harmonioso e atraente.
+              </h5>
+
+            </div>
+
+          </article>
         </div>
-        <div class="linha-servico">
-          <span>DESIGN PEZINHO</span>
-          <span>R$ 15.00</span>
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1 flip1serv14">
+              <h4>DESIGN PEZINHO </h4>
+            </div>
+            <div class="flip2">
+              <h4>
+                Design Pezinho
+              </h4>
+              <h4>
+                R$ 15,00
+              </h4>
+              <h5>
+                O design de pezinho é um serviço que consiste em modelar e definir o cabelo na região da testa, criando um visual harmonioso e atraente.
+              </h5>
+
+            </div>
+
+          </article>
         </div>
-        <div class="linha-servico">
-          <span>PROGRESSIVA, A PARTIR</span>
-          <span>R$ 80.00</span>
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1 flip1serv15">
+              <h4>PROGRESSIVA </h4>
+            </div>
+            <div class="flip2">
+              <h4>
+                Progressiva, A Partir
+              </h4>
+              <h4>
+                R$ 80.00
+              </h4>
+              <h5>
+                A progressiva é um processo de clareamento do cabelo que resulta em um visual mais iluminado e moderno.
+              </h5>
+
+            </div>
+
+          </article>
         </div>
-        <div class="linha-servico">
-          <span>REFLEXO / LUZES, A PARTIR</span>
-          <span>R$ 70.00</span>
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1 flip1serv16">
+              <h4>REFLEXO / LUZES </h4>
+            </div>
+            <div class="flip2">
+              <h4>
+                Reflexo / Luzes, A Partir
+              </h4>
+              <h4>
+                R$ 70,00
+              </h4>
+              <h5>
+                O reflexo / luzes é um serviço que consiste em adicionar tons claros ao cabelo, criando um visual mais iluminado e moderno.
+              </h5>
+
+            </div>
+
+          </article>
         </div>
-        <div class="linha-servico">
-          <span>DESIGN BARBA</span>
-          <span>R$ 30.00</span>
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1 flip1serv17">
+              <h4>DESIGN BARBA </h4>
+            </div>
+            <div class="flip2">
+              <h4>
+                Design de Barba
+              </h4>
+              <h4>
+                R$ 30,00
+              </h4>
+              <h5>
+                O design de barba é um serviço que consiste em modelar e definir a barba, criando um visual harmonioso e atraente.
+              </h5>
+
+            </div>
+
+          </article>
         </div>
-        <div class="linha-servico">
-          <span>DESIGN DE SOBRANCELHA</span>
-          <span>R$ 15.00</span>
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1 flip1serv18">
+              <h4>DESIGN DE SOBRANCELHA </h4>
+            </div>
+            <div class="flip2">
+              <h4>
+                Design de Sobrancelha
+              </h4>
+              <h4>
+                R$ 15,00
+              </h4>
+              <h5>
+                O design de sobrancelha é um serviço que consiste em modelar e definir as sobrancelhas, criando um visual harmonioso e atraente.
+              </h5>
+
+            </div>
+
+          </article>
         </div>
-        <div class="linha-servico">
-          <span>PLATINADO GLOBAL + CORTE, A PARTIR</span>
-          <span>R$ 150.00</span>
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1 flip1serv19">
+              <h4>PLATINADO GLOBAL + CORTE </h4>
+            </div>
+            <div class="flip2">
+              <h4>
+                PLATINADO GLOBAL + CORTE, A PARTIR
+              </h4>
+              <h4>
+                R$ 150,00
+              </h4>
+              <h5>
+                O platino global + corte é um serviço que combina o processo de clareamento completo do cabelo com um corte personalizado, resultando em um visual moderno e elegante.
+              </h5>
+
+            </div>
+
+          </article>
         </div>
-        <div class="linha-servico">
-          <span>PENTEADO</span>
-          <span>R$ 25.00</span>
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1 flip1serv20">
+              <h4>PENTEADO</h4>
+            </div>
+            <div class="flip2">
+              <h4>
+                PENTEADO
+              </h4>
+              <h4>
+                R$ 25.00
+              </h4>
+              <h5>
+                O penteado é um serviço que consiste em pentear o cabelo de forma elegante e organizada, criando diferentes estilos e aparências.
+              </h5>
+
+            </div>
+
+          </article>
         </div>
-        <div class="linha-servico">
-          <span>ALISAMENTO + HIDRATAÇÃO</span>
-          <span>R$ 45.00</span>
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1 flip1serv21">
+              <h4>ALISAMENTO + HIDRATAÇÃO </h4>
+            </div>
+            <div class="flip2">
+              <h4>
+                ALISAMENTO + HIDRATAÇÃO
+              </h4>
+              <h4>
+                R$ 45.00
+              </h4>
+              <h5>
+                O alisamento + hidratação é um serviço que suaviza os fios e restaura a saúde e o brilho do cabelo.
+              </h5>
+
+            </div>
+
+          </article>
         </div>
-        <div class="linha-servico">
-          <span>CORTE + ALISAMENTO + HIDRATAÇÃO</span>
-          <span>R$ 80.00</span>
+
+        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
+          <article class="card-flip-miolo">
+
+            <div class="flip1 flip1serv22">
+              <h4>CORTE + ALISAMENTO + HIDRATAÇÃO </h4>
+            </div>
+            <div class="flip2">
+              <h4>
+                CORTE + ALISAMENTO + HIDRATAÇÃO
+              </h4>
+              <h4>
+                R$ 80.00
+              </h4>
+              <h5>
+                O corte + alisamento + hidratação é um serviço completo que combina um corte de cabelo personalizado, seguido por um processo de alisamento para suavizar os fios e uma hidratação profunda para restaurar a saúde e o brilho do cabelo.
+              </h5>
+
+            </div>
+
+          </article>
         </div>
+
+
       </div>
+
+
+
 
 
     </section>
 
     <!-- fim serviços -->
 
-
-
-
-    <!-- Inicio produtos -->
-    <section class="produtos">
-      <header class="parallax-padrao">
-        <h2>
-          Produtos
-        </h2>
-        <h3>
-          kits personalizados para seu cuidado!
-        </h3>
-
-      </header>
-
-      <div class="site card-produtos">
-
-        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
-          <article class="card-flip-miolo">
-
-            <div class="flip1">
-              <img src="assets/pomada_premium.png" alt="imagem de um kit de produtos para cabelo">
-              <h4>
-                pomada extra forte “fox for men”
-              </h4>
-            </div>
-
-            <div class="flip2">
-
-
-              <h4>
-                pomada extra forte “fox for men”
-              </h4>
-
-              <p>
-                Pomadas para cabelo
-              </p>
-
-            </div>
-          </article>
-
-
-        </div>
-
-        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
-          <article class="card-flip-miolo">
-
-            <div class="flip1">
-              <img src="assets/pomada_matte.png" alt="imagem de um kit de produtos para cabelo">
-              <h4>
-                pomada matte “fox for men”
-              </h4>
-            </div>
-
-            <div class="flip2">
-              <h4>
-                pomada matte “fox for men”
-              </h4>
-
-              <p>
-                cera modeladora efeito matte
-              </p>
-
-            </div>
-          </article>
-
-
-        </div>
-
-
-        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
-          <article class="card-flip-miolo">
-
-            <div class="flip1">
-              <img src="assets/pomada_teia.png" alt="imagem de um kit de produtos para cabelo">
-              <h4>
-                pomada teia “fox for men” 80g
-              </h4>
-            </div>
-
-            <div class="flip2">
-              <h4>
-                <a href="https://foxformen.com.br/produto/pomada-modeladora-teia-150g/?utm_source=chatgpt.com">pomada teia “fox for men” 80g</a>
-              </h4>
-
-              <p>
-                creme modelador efeito teia
-              </p>
-
-            </div>
-          </article>
-
-
-        </div>
-
-
-        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
-          <article class="card-flip-miolo">
-
-            <div class="flip1">
-              <img src="assets/modelador_em_po.png" alt="imagem de um kit de produtos para cabelo">
-              <h4>
-                modelador em pó “fox for men” 7g
-              </h4>
-            </div>
-
-            <div class="flip2">
-              <h4>
-                modelador em pó “fox for men” 7g
-              </h4>
-
-              <p>
-                modelador em pó para o couro cabeludo
-              </p>
-
-            </div>
-          </article>
-
-
-        </div>
-
-
-        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
-          <article class="card-flip-miolo">
-
-            <div class="flip1">
-              <img src="assets/shaving_gel_barba.png" alt="imagem de um kit de produtos para cabelo">
-              <h4>
-                shaving gel “fox for men” 500g
-              </h4>
-            </div>
-
-            <div class="flip2">
-              <h4>
-                shaving gel “fox for men” 500g
-              </h4>
-
-              <p>
-                gel de barbear 500g
-              </p>
-
-            </div>
-          </article>
-
-
-        </div>
-
-
-        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
-          <article class="card-flip-miolo">
-
-            <div class="flip1">
-              <img src="assets/limpador_facial.png" alt="imagem de um kit de produtos para cabelo">
-              <h4>
-                limpador facial “fox for men” 250g
-              </h4>
-            </div>
-
-            <div class="flip2">
-              <h4>
-                limpador facial “fox for men” 250g
-              </h4>
-
-              <p>
-                limpador facial pré barba
-              </p>
-
-            </div>
-          </article>
-
-
-        </div>
-
-
-        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
-          <article class="card-flip-miolo">
-
-            <div class="flip1">
-              <img src="assets/balm_para_barba.png" alt="imagem de um kit de produtos para cabelo">
-              <h4>
-                Balm para barba “fox for men” 120ml
-              </h4>
-            </div>
-
-            <div class="flip2">
-              <h4>
-                Balm para barba “fox for men” 120ml
-              </h4>
-
-              <p>
-                hidratação para a barba
-              </p>
-
-            </div>
-          </article>
-
-
-        </div>
-
-
-        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
-          <article class="card-flip-miolo">
-
-            <div class="flip1">
-              <img src="assets/oleo_para_barba.png" alt="imagem de um kit de produtos para cabelo">
-              <h4>
-                Óleo para barba “fox for men” 60ml
-              </h4>
-            </div>
-
-            <div class="flip2">
-              <h4>
-                Óleo para barba “fox for men” 60ml
-              </h4>
-
-              <p>
-                Óleo para barba
-              </p>
-
-            </div>
-          </article>
-
-
-        </div>
-
-
-        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
-          <article class="card-flip-miolo">
-
-            <div class="flip1">
-              <img src="assets/pos_barba.png" alt="imagem de um kit de produtos para cabelo">
-              <h4>
-                Hidratante facial Pós barba “fox for men” 120ml
-              </h4>
-            </div>
-
-            <div class="flip2">
-              <h4>
-                Hidratante facial Pós barba “fox for men” 120ml
-              </h4>
-
-              <p>
-                Hidratante facial pós barba
-              </p>
-
-            </div>
-          </article>
-
-
-        </div>
-
-
-        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
-          <article class="card-flip-miolo">
-
-            <div class="flip1">
-              <img src="assets/locao_pos_barba.png" alt="imagem de um kit de produtos para cabelo">
-              <h4>
-                Loção pós barba “fox for men” 240ml
-              </h4>
-            </div>
-
-            <div class="flip2">
-              <h4>
-                Loção pós barba “fox for men” 240ml
-              </h4>
-
-              <p>
-                Loção pós barba
-              </p>
-
-            </div>
-          </article>
-
-
-        </div>
-
-
-        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
-          <article class="card-flip-miolo">
-
-            <div class="flip1">
-              <img src="assets/gel_cola.png" alt="imagem de um kit de produtos para cabelo">
-              <h4>
-                Gel Cola “fox for men” 300g
-              </h4>
-            </div>
-
-            <div class="flip2">
-              <h4>
-                Gel Cola “fox for men” 300g
-              </h4>
-
-              <p>
-                Pomadas para cabelo
-              </p>
-
-            </div>
-          </article>
-
-
-        </div>
-
-
-        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
-          <article class="card-flip-miolo">
-
-            <div class="flip1">
-              <img src="assets/shampoo_anti_caspa.png" alt="imagem de um kit de produtos para cabelo">
-              <h4>
-                Shampo Anti Caspa “fox for men”
-              </h4>
-            </div>
-
-            <div class="flip2">
-              <h4>
-                Shampo Anti Caspa “fox for men”
-              </h4>
-
-              <p>
-                Pomadas para cabelo
-              </p>
-
-            </div>
-          </article>
-
-
-        </div>
-
-
-        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
-          <article class="card-flip-miolo">
-
-            <div class="flip1">
-              <img src="assets/shampoo_4_em_1.png" alt="imagem de um kit de produtos para cabelo">
-              <h4>
-                Shampoo 4 em 1 “fox for men” 240 ML
-              </h4>
-            </div>
-
-            <div class="flip2">
-              <h4>
-                Shampoo 4 em 1 “fox for men” 240 ML
-              </h4>
-
-              <p>
-                Pomadas para cabelo
-              </p>
-
-            </div>
-          </article>
-
-
-        </div>
-
-        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
-          <article class="card-flip-miolo">
-
-            <div class="flip1">
-              <img src="assets/esfoliante_facial_pre.png" alt="imagem de um kit de produtos para cabelo">
-              <h4>
-                Esfoliante Facial Pré Barba “fox for men” 120ML
-              </h4>
-            </div>
-
-            <div class="flip2">
-              <h4>
-                Esfoliante Facial Pré Barba “fox for men” 120ML
-              </h4>
-
-              <p>
-                Pomadas para cabelo
-              </p>
-
-            </div>
-          </article>
-
-
-        </div>
-
-        <div class="card-flip wow animate__animated animate__fadeInUp animate__delay-1s">
-          <article class="card-flip-miolo">
-
-            <div class="flip1">
-              <img src="assets/mascara_black.png" alt="imagem de um kit de produtos para cabelo">
-              <h4>
-                Máscara Black “fox for men” 120ML
-              </h4>
-            </div>
-
-            <div class="flip2">
-              <h4>
-                Máscara Black “fox for men” 120ML
-              </h4>
-
-              <p>
-                Máscara Facial
-              </p>
-
-            </div>
-          </article>
-
-
-        </div>
-
-
-
-
-
-
-
-      </div>
-    </section>
-
-
-    <!-- fim produtos -->
 
   </main>
 

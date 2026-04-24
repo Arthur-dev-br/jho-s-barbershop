@@ -41,7 +41,7 @@ if (isset($_POST['email'])) {
 
 
     //Server settings
-    $mail->SMTPDebug = 0;//SMTP::DEBUG_SERVER                  //Enable verbose debug output
+    $mail->SMTPDebug = 0; //SMTP::DEBUG_SERVER                  //Enable verbose debug output
     $mail->isSMTP();                                            //Send using SMTP
     $mail->Host = 'smpsistema.com.br';                     //Set the SMTP server to send through
     $mail->SMTPAuth = true;                                   //Enable SMTP authentication
@@ -168,20 +168,24 @@ if (isset($_POST['email'])) {
         <!-- nav>ul>li*6>a+tab -->
         <ul>
           <li><a class="<?php if ($pgAtual == 'index.php')
-            echo 'menu-ativo'; ?>" href="index.php">Home</a></li>
+                          echo 'menu-ativo'; ?>" href="index.php">Home</a></li>
 
           <li><a class="<?php if ($pgAtual == 'sobre.php')
-            echo 'menu-ativo'; ?>" href="sobre.php">Sobre</a></li>
+                          echo 'menu-ativo'; ?>" href="sobre.php">Sobre</a></li>
 
           <li><a class="<?php if ($pgAtual == 'servicos.php')
-            echo 'menu-ativo'; ?>" href="servicos.php">Serviços</a></li>
+                          echo 'menu-ativo'; ?>" href="servicos.php">Serviços</a></li>
+
+          <li><a class="<?php if ($pgAtual == 'produtos.php')
+                          echo 'menu-ativo'; ?>" href="produtos.php">Produtos</a></li>
 
           <li><a class="<?php if ($pgAtual == 'galeria.php')
-            echo 'menu-ativo'; ?>" href="galeria.php">Galeria</a></li>
+                          echo 'menu-ativo'; ?>" href="galeria.php">Galeria</a></li>
 
           <li><a class="<?php if ($pgAtual == 'contato.php')
-            echo 'menu-ativo'; ?>" href="contato.php">Contato</a></li>
+                          echo 'menu-ativo'; ?>" href="contato.php">Contato</a></li>
         </ul>
+
 
       </nav>
       <ul class="rede-social topozao">
@@ -202,7 +206,7 @@ if (isset($_POST['email'])) {
 
     <!-- inicio formulario contato -->
     <section class="contato-form">
-      <div class="contato-badge">
+      <div class="contato-badge  wow animate__animated animate__fadeInDown">
         <h3>JHO'S BARBERSHOP</h3>
         <p>Entre em contato conosco</p>
       </div>
@@ -220,12 +224,12 @@ if (isset($_POST['email'])) {
 
       <form class="form-contato" action="#" method="post">
         <div class="campos-dupla">
-          <div class="linha-dupla linha-topo">
+          <div class="linha-dupla linha-topo wow animate__animated animate__fadeInUp">
             <input type="text" name="nome" placeholder="Nome Completo" required>
             <input type="email" name="email" placeholder="E-mail" required>
           </div>
 
-          <div class="linha-dupla linha-baixo">
+          <div class="linha-dupla linha-baixo wow animate__animated animate__fadeInUp">
             <input type="tel" name="telefone" placeholder="Telefone" required>
             <select name="assunto" required>
               <option value="" disabled selected>Assunto</option>
@@ -238,7 +242,7 @@ if (isset($_POST['email'])) {
 
         <textarea name="mensagem" cols="30" rows="10" placeholder="Mensagem" required></textarea>
 
-        <div class="botoes-form">
+        <div class="botoes-form wow animate__animated animate__fadeInUp">
           <button type="reset">Limpar</button>
           <button type="submit">Enviar mensagem</button>
         </div>
@@ -246,22 +250,22 @@ if (isset($_POST['email'])) {
 
 
       <div class="contato-blocos">
-        <article class="contato-bloco">
+        <article class="contato-bloco wow animate__animated animate__fadeInLeft">
           <h3>Nosso Telefone</h3>
           <p>11 95887-1348</p>
         </article>
 
-        <article class="contato-bloco">
+        <article class="contato-bloco wow animate__animated animate__fadeInRight">
           <h3>Nosso endereço</h3>
           <p>Av. João Batista Santiago,<br> 1397, Itaim Paulista.</p>
         </article>
 
-        <article class="contato-bloco">
+        <article class="contato-bloco wow animate__animated animate__fadeInLeft">
           <h3>Nosso e-mail</h3>
           <p>Jhosbarbershop@gmail.com</p>
         </article>
 
-        <article class="contato-bloco">
+        <article class="contato-bloco wow animate__animated animate__fadeInRight">
           <h3>Siga-nos</h3>
           <ul class="rede-social">
             <li><a href="https://wa.me/5511958871348" target="_blank"><img src="assets/whatsapp-24.png"
