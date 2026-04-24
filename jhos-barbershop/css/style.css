@@ -314,6 +314,7 @@ p {
     margin-top: 50px;
     max-width: 1920px;
     width: 100%;
+    margin-bottom: 75px;
 }
 
 .servicos h2 {
@@ -327,38 +328,9 @@ p {
     color: var(--cor-terciaria);
 }
 
-.tabela-servicos {
-    max-width: 760px;
-    width: 100%;
-    margin: 40px auto 50px;
-    background-color: var(--cor-terciaria);
-    padding: 12px 18px;
-    border-radius: 4px;
-}
 
-.linha-servico {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 100px;
-    padding: 8px 0;
-    border-bottom: 2px solid #2b2b2b;
-}
 
-.linha-servico:last-child {
-    border-bottom: none;
-}
 
-.linha-servico span {
-    font-family: var(--fonte-titulo);
-    font-size: 30px;
-    color: #111111;
-    text-transform: uppercase;
-}
-
-.linha-servico span:last-child {
-    white-space: nowrap;
-}
 
 .card-servicos {
     display: flex;
@@ -427,7 +399,7 @@ p {
 
 }
 
-.galeria p{
+.galeria p {
     text-align: center;
     font-size: 15px;
 }
@@ -616,7 +588,7 @@ p {
 }
 
 .linha-dupla.linha-topo {
-    gap: 360px;
+    gap: 65px;
 }
 
 .linha-dupla>input,
@@ -878,6 +850,15 @@ p {
     gap: 30px;
     flex-wrap: wrap;
     margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.servicos .card-produtos {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
 }
 
 .card-flip {
@@ -894,6 +875,7 @@ p {
     transform-style: preserve-3d;
     transition: transform .8s ease;
     border-radius: 25px;
+    margin-top: 50px;
 }
 
 .card-flip:hover .card-flip-miolo {
@@ -928,10 +910,337 @@ p {
     align-items: center;
 }
 
+.flip1serv {
+    background-image: url(../assets/Cabeo_cuidado.png);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    position: absolute;
+    inset: 0;
+    border-radius: 25px;
+    overflow: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    padding: 22px;
+}
+
+.flip1serv2 {
+    background-image: url(../assets/Corte_Barba.png);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    position: absolute;
+    inset: 0;
+    border-radius: 25px;
+    overflow: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    padding: 22px;
+}
+
+.flip1serv3 {
+    background-image: url(../assets/foto_galeria14.png);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    position: absolute;
+    inset: 0;
+    border-radius: 25px;
+    overflow: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    padding: 22px;
+}
+
+.flip1serv4 {
+    background-image: url(../assets/foto_galeria13.png);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    position: absolute;
+    inset: 0;
+    border-radius: 25px;
+    overflow: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    padding: 22px;
+}
+
+.flip1serv5 {
+    background-image: url(../assets/foto_galeria12.png);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    position: absolute;
+    inset: 0;
+    border-radius: 25px;
+    overflow: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    padding: 22px;
+}
+
+.flip1serv6 {
+    background-image: url(../assets/foto_galeria11.png);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    position: absolute;
+    inset: 0;
+    border-radius: 25px;
+    overflow: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    padding: 22px;
+}
+
+.flip1serv7 {
+    background-image: url(../assets/foto_galeria20.png);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    position: absolute;
+    inset: 0;
+    border-radius: 25px;
+    overflow: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    padding: 22px;
+}
+
+.flip1serv8 {
+    background-image: url(../assets/foto_galeria19.png);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    position: absolute;
+    inset: 0;
+    border-radius: 25px;
+    overflow: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    padding: 22px;
+}
+
+.flip1serv9 {
+    background-image: url(../assets/foto_galeria14.png);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    position: absolute;
+    inset: 0;
+    border-radius: 25px;
+    overflow: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    padding: 22px;
+}
+
+.flip1serv10 {
+    background-image: url(../assets/foto_galeria18.png);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    position: absolute;
+    inset: 0;
+    border-radius: 25px;
+    overflow: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    padding: 22px;
+}
+
+.flip1serv11 {
+    background-image: url(../assets/foto_galeria16.png);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    position: absolute;
+    inset: 0;
+    border-radius: 25px;
+    overflow: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    padding: 22px;
+}
+
+.flip1serv12 {
+    background-image: url(../assets/foto_galeria15.png);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    position: absolute;
+    inset: 0;
+    border-radius: 25px;
+    overflow: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    padding: 22px;
+}
+
+.flip1serv13 {
+    background-image: url(../assets/foto_galeria17.png);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    position: absolute;
+    inset: 0;
+    border-radius: 25px;
+    overflow: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    padding: 22px;
+}
+
+.flip1serv14 {
+    background-image: url(../assets/foto_galeria7.png);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    position: absolute;
+    inset: 0;
+    border-radius: 25px;
+    overflow: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    padding: 22px;
+}
+
+.flip1serv15 {
+    background-image: url(../assets/foto_galeria4.png);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    position: absolute;
+    inset: 0;
+    border-radius: 25px;
+    overflow: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    padding: 22px;
+}
+
+.flip1serv16 {
+    background-image: url(../assets/foto_galeria3.png);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    position: absolute;
+    inset: 0;
+    border-radius: 25px;
+    overflow: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    padding: 22px;
+}
+
+.flip1serv17 {
+    background-image: url(../assets/foto_galeria10.png);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    position: absolute;
+    inset: 0;
+    border-radius: 25px;
+    overflow: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    padding: 22px;
+}
+
+.flip1serv18 {
+    background-image: url(../assets/foto_galeria2.png);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    position: absolute;
+    inset: 0;
+    border-radius: 25px;
+    overflow: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    padding: 22px;
+}
+
+.flip1serv19 {
+    background-image: url(../assets/foto_galeria9.png);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    position: absolute;
+    inset: 0;
+    border-radius: 25px;
+    overflow: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    padding: 22px;
+}
+
+.flip1serv20 {
+    background-image: url(../assets/foto_galeria4.png);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    position: absolute;
+    inset: 0;
+    border-radius: 25px;
+    overflow: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    padding: 22px;
+}
+
+.flip1serv21 {
+    background-image: url(../assets/foto_galeria6.png);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    position: absolute;
+    inset: 0;
+    border-radius: 25px;
+    overflow: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    padding: 22px;
+}
+
+.flip1serv22 {
+    background-image: url(../assets/foto_galeria21.png);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    position: absolute;
+    inset: 0;
+    border-radius: 25px;
+    overflow: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    padding: 22px;
+}
+
+.flip1serv h4,
+.flip1serv2 h4,
+.flip1serv3 h4,
+.flip1serv4 h4,
+.flip1serv5 h4,
+.flip1serv6 h4,
+.flip1serv7 h4,
+.flip1serv8 h4 {
+    font-size: 30px;
+    font-family: var(--fonte-titulo);
+    color: var(--cor-primaria-2);
+
+    position: relative;
+    z-index: 1;
+    padding: 0 15px 0 15px;
+    -webkit-text-stroke: 0.5px black;
+}
+
 .flip1::before {
     content: " ";
     position: absolute;
     inset: 0;
+    background-color: rgba(0, 0, 0, 0.234);
 }
 
 .flip2 h4 {
@@ -994,6 +1303,8 @@ p {
 
 .produtos .mais {
     text-align: center;
+  margin-top: 75px;
+
 }
 
 .localizacao {
@@ -1081,11 +1392,11 @@ p {
 
 
 
-.creditos h2{
+.creditos h2 {
     text-align: center;
     font-family: var(--fonte-texto);
     font-size: 25px;
     color: var(--cor-primaria-2);
     margin: 0;
     padding-bottom: 20px;
-}  
+}
